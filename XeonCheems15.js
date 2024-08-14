@@ -1858,9 +1858,9 @@ break
         `Contact Developer On WhatsApp`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://Wa.me/916909137213', // Command (URL in this case)
+        'https://Wa.me/923444844060', // Command (URL in this case)
         'cta_url', // Button type
-        'https://Wa.me/916909137213' // URL (used in image generation)
+        'https://Wa.me/923444844060' // URL (used in image generation)
     ], 
 ];
 
@@ -7311,7 +7311,7 @@ case 'dere':{
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [{
             "name": "quick_reply",
-              "buttonParamsJson": `{\"display_text\":\"PLAY AGAIN 🤔\",\"id\":\"${prefix}dare"}`
+              "buttonParamsJson": `{\"display_text\":\"PLAY AGAIN\",\"id\":\"${prefix}dare"}`
             }],
           }), 
           contextInfo: {
@@ -7447,7 +7447,7 @@ return await XeonBotInc.relayMessage(m.chat, msgs.message, {})
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [{
             "name": "quick_reply",
-              "buttonParamsJson": `{\"display_text\":\"PLAY AGAIN 🤔\",\"id\":\"${prefix}truth"}`
+              "buttonParamsJson": `{\"display_text\":\"PLAY AGAIN\",\"id\":\"${prefix}truth"}`
             }],
           }), 
           contextInfo: {
@@ -8915,7 +8915,7 @@ await XeonBotInc.relayMessage(m.chat, msgs.message, {})
     break
     case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 let me = m.sender
-let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/y6XmZ2b/donate.png`
+let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 https://telegra.ph/file/f6119ab1993a2d875843a.jpg`
 sendXeonBotIncMessage(m.chat, { 
 text: teks,
 mentions:[sender],
@@ -8965,7 +8965,7 @@ case 'runtime': {
 							}]
 						}
 					}]
-					await XeonBotInc.sendButtonMsg(m.chat, 'Bot Settings', xeonytimewisher, 'Please select Owner🫡', null, buttonnya, m);
+					await XeonBotInc.sendButtonMsg(m.chat, 'Bot Settings', xeonytimewisher, 'Please select Owner', null, buttonnya, m);
 				} else if (text && XeonTheCreator) {
 					if (text === 'anticall on') db.settings[botNumber].anticall = true, replygcxeon('Successfully Activating Anticall');
 					if (text === 'anticall off') db.settings[botNumber].anticall = false, replygcxeon('Successfully Turning Off Anticall');
@@ -8988,7 +8988,7 @@ case 'runtime': {
 			}
 			break
 case 'ghstalk': case 'githubstalk':{
-if (!q) return replygcxeon(`Example ${prefix+command} DGXeon`)
+if (!q) return replygcxeon(`Example ${prefix+command} GlobalTechInfo`)
 await XeonStickWait()
 let githubstalk = require('./lib/scraper')
 aj = await githubstalk.githubstalk(`${q}`)
@@ -10497,15 +10497,15 @@ if (!XeonTheCreator) return XeonStickOwner()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -10586,7 +10586,7 @@ case 'gdrive': {
 }
 break
            case 'git': case 'gitclone':
-if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/DGXeon/XeonMedia`)
+if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/GlobalTechInfo/GLOBAL-MD`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcxeon(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -10892,7 +10892,7 @@ XeonBotInc.sendMessage(m.chat, {text: `Here @${teman.split("@")[0]}`, mentions: 
 }
 break
             case 'wanumber': case 'nowa': case 'searchno': case 'searchnumber':{
-           	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 91690913721x`)
+           	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 92344484406x`)
 var inputnumber = text.split(" ")[0]
         
         replygcxeon(`Searching for WhatsApp account in given range...`)
@@ -10940,7 +10940,7 @@ var inputnumber = text.split(" ")[0]
                 if (anu1 == '401' || anu1.status.length == 0) {
                     nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
                 } else {
-                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Karachi').format('HH:mm:ss DD/MM/YYYY')}\n\n`
                 }
             } catch {
                 nowhatsapp += `${number0}${i}${number1}\n`
@@ -11096,7 +11096,7 @@ break;
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [{
             "name": "quick_reply",
-              "buttonParamsJson": `{\"display_text\":\"😂💦\",\"id\":\""}`
+              "buttonParamsJson": `{\"display_text\":\"💦\",\"id\":\""}`
             }],
           }), 
           contextInfo: {
@@ -11206,7 +11206,7 @@ await XeonBotInc.relayMessage(m.chat, msgs.message, {})
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [{
             "name": "quick_reply",
-              "buttonParamsJson": `{\"display_text\":\"😂💦\",\"id\":\""}`
+              "buttonParamsJson": `{\"display_text\":\"💦\",\"id\":\""}`
             }],
           }), 
           contextInfo: {
@@ -11460,7 +11460,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
   response.forEach((request, index) => {
     const { jid, request_method, request_time } = request;
     const formattedTime = new Date(parseInt(request_time) * 1000).toLocaleString();
-    replyMessage += `\n*No.: ${index + 1} Request Details. 👇*`;
+    replyMessage += `\n*No.: ${index + 1} Request Details.*`;
     replyMessage += `\n🧟‍♂️ *JID:* ${jid}`;
     replyMessage += `\n🧪 *Method:* ${request_method}`;
     replyMessage += `\n⏰ *Time:* ${formattedTime}\n`;
@@ -11530,15 +11530,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -11606,15 +11606,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -11881,15 +11881,15 @@ break
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12069,15 +12069,15 @@ break
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12111,7 +12111,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 			case 'invite': {
 	if (!m.isGroup) return XeonStickGroup()
 	if (!m.isBotAdmin) return XeonStickBotAdmin()
-if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 916909137213`)
+if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 923444844060`)
 if (text.includes('+')) return replygcxeon(`Enter the number together without *+*`)
 if (isNaN(text)) return replygcxeon(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -12223,15 +12223,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12298,15 +12298,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12373,15 +12373,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12448,15 +12448,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12523,15 +12523,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12595,15 +12595,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12668,15 +12668,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12741,15 +12741,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12816,15 +12816,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12891,15 +12891,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -12966,15 +12966,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -13041,15 +13041,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -13115,15 +13115,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -13189,15 +13189,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -13263,15 +13263,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -13450,15 +13450,15 @@ if (!XeonTheCreator) return XeonStickOwner()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -13791,7 +13791,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923444844060`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -13855,7 +13855,7 @@ const teksop = `     「 Create Group 」
 
 ▸ Name : ${cret.subject}
 ▸ Owner : @${cret.owner.split("@")[0]}
-▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}
+▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}
 
 https://chat.whatsapp.com/${response}`
 XeonBotInc.sendMessage(m.chat, { text:teksop, mentions: await XeonBotInc.parseMention(teksop)}, {quoted:m})
@@ -13910,7 +13910,7 @@ break
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT REPLY 🐛",
+                "buttonParamsJson": `{"title":"SELECT REPLY 🎗️",
 "sections":[{"title":"SELECT THE REPLY BELOW",
 "highlight_label":"OWNER'S FAVOURITE",
 "rows":[{"header":"CHANNEL + LINK THUMB",
@@ -14206,7 +14206,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -14264,15 +14264,15 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14307,7 +14307,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             let [poll, opt] = text.split("|")
             if (text.split("|") < 2)
                 return await replygcxeon(
-                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Xeon,Cheems,Doge...`
+                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Qasim,Nadeem,Global...`
                 )
             try {
             let options = []
@@ -14322,7 +14322,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             })
             } catch {
             	replygcxeon(
-                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Xeon,Cheems,Doge...`
+                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Qasim,Nadeem,Global...`
                 )
                 }
         }
@@ -14361,15 +14361,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14433,15 +14433,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14505,15 +14505,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14577,15 +14577,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14649,15 +14649,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14688,13 +14688,13 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             break
 			case 'setautoblock':
                 if (!XeonTheCreator) return XeonStickOwner()
-                if (!text) return replygcxeon(`Example : ${prefix + command} 92`)
+                if (!text) return replygcxeon(`Example : ${prefix + command} 91`)
                 global.autoblocknumber = text
                 replygcxeon(`Auto-Block number successfully changed to ${text}`)
                 break
                 case 'setantiforeign':
                 if (!XeonTheCreator) return XeonStickOwner()
-                if (!text) return replygcxeon(`Example : ${prefix + command} 91`)
+                if (!text) return replygcxeon(`Example : ${prefix + command} 94`)
                 global.antiforeignnumber = text
                 replygcxeon(`Anti-foreign number successfully changed to ${text}`)
                 break
@@ -14734,15 +14734,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14807,15 +14807,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14880,15 +14880,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -14952,15 +14952,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -15024,15 +15024,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -15095,15 +15095,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -15167,15 +15167,15 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
-"description":"ENABLE ✅",
+"description":"ON",
 "id":"${prefix+command} on"},
 {"header":"DISABLE ❌",
 "title":"CHOOSE ",
-"description":"DISABLE ❌",
+"description":"OFF",
 "id":"${prefix+command} off"}
 ]
 }
@@ -15216,7 +15216,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
                 	let button = [{
 						name: 'single_select',
 						buttonParamsJson: {
-							title: 'SELECT 🌹',
+							title: 'SELECT 🔰',
 							sections: [{
 								title: 'BOT MODE',
 								rows: [
@@ -15226,7 +15226,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 							}]
 						}
 					}]
-                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose 🌹', null, button, m);
+                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose 🔰', null, button, m);
                 	}
                 }
                 break
@@ -15332,7 +15332,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				let teks = `⬣ *LIST GROUP CHAT*\n\nTotal Group : ${anu.length} Group\n\n`
 				for (let i of anu) {
 					let metadata = await XeonBotInc.groupMetadata(i)
-					teks += `${setv} *Name :* ${metadata.subject}\n${setv} *Admin :* ${metadata.owner ? `@${metadata.owner.split('@')[0]}` : '-' }\n${setv} *ID :* ${metadata.id}\n${setv} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n${setv} *Member :* ${metadata.participants.length}\n\n=====================\n\n`
+					teks += `${setv} *Name :* ${metadata.subject}\n${setv} *Admin :* ${metadata.owner ? `@${metadata.owner.split('@')[0]}` : '-' }\n${setv} *ID :* ${metadata.id}\n${setv} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Karachi').format('DD/MM/YYYY HH:mm:ss')}\n${setv} *Member :* ${metadata.participants.length}\n\n=====================\n\n`
 				}
 				XeonBotInc.sendTextMentions(m.chat, teks, m)
 			}
@@ -15395,7 +15395,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
 				if (!m.isBotAdmin) return XeonStickBotAdmin()
 				if (!text && !m.quoted) {
-					replygcxeon(`EXAMPLE: ${prefix + command} 91xxx`)
+					replygcxeon(`EXAMPLE: ${prefix + command} 92xxx`)
 				} else {
 					const numbersOnly = text ? text.replace(/\D/g, '') + '@s.whatsapp.net' : m.quoted?.sender
 					try {
@@ -15425,7 +15425,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
 				if (!m.isBotAdmin) return XeonStickBotAdmin()
 				if (!text && !m.quoted) {
-					replygcxeon(`Example: ${prefix + command} 91xxx`)
+					replygcxeon(`Example: ${prefix + command} 92xxx`)
 				} else {
 					const numbersOnly = text ? text.replace(/\D/g, '') + '@s.whatsapp.net' : m.quoted?.sender
 					await XeonBotInc.groupParticipantsUpdate(m.chat, [numbersOnly], 'remove').catch((err) => replygcxeon('Failed to Kick User!'))
@@ -15437,7 +15437,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
 				if (!m.isBotAdmin) return XeonStickBotAdmin()
 				if (!text && !m.quoted) {
-					replygcxeon(`Example: ${prefix + command} 91xxx`)
+					replygcxeon(`Example: ${prefix + command} 92xxx`)
 				} else {
 					const numbersOnly = text ? text.replace(/\D/g, '') + '@s.whatsapp.net' : m.quoted?.sender
 					await XeonBotInc.groupParticipantsUpdate(m.chat, [numbersOnly], 'promote').catch((err) => replygcxeon('Fail!'))
@@ -15450,7 +15450,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
 				if (!m.isBotAdmin) return XeonStickBotAdmin()
 				if (!text && !m.quoted) {
-					replygcxeon(`Example: ${prefix + command} 91xxx`)
+					replygcxeon(`Example: ${prefix + command} 92xxx`)
 				} else {
 					const numbersOnly = text ? text.replace(/\D/g, '') + '@s.whatsapp.net' : m.quoted?.sender
 					await XeonBotInc.groupParticipantsUpdate(m.chat, [numbersOnly], 'demote').catch((err) => replygcxeon('Failed!'))
@@ -15687,7 +15687,7 @@ list.push({
 			break
 			case 'req': case 'request': {
 				if (!text) return replygcxeon('What do you want to request from the owner??')
-				await XeonBotInc.sendMessage(m.chat, { text: `*Request Has Been Sent To Owner*\n_Thank You🙏_` }, { quoted: m })
+				await XeonBotInc.sendMessage(m.chat, { text: `*Request Has Been Sent To Owner*\n_Thank You_` }, { quoted: m })
 				await XeonBotInc.sendFromOwner(ownernumber, `Order From : @${m.sender.split('@')[0]}\nFor Owners\n\nRequest ${text}`, m, { contextInfo: { mentionedJid: [m.sender], isForwarded: true }})
 			}
 			break
@@ -15840,7 +15840,7 @@ list.push({
 					XeonBotInc.sendMessage(tujuan, { text: `_${command} connected_\n*Note :* if you want to end, type _*${prefix}del${command}*_` });
 					replygcxeon(`_Start ${command}..._\n*Please start sending messages/media*\n*Duration ${command} only for 10 minutes*\n*Note :* if you want to end, type _*${prefix}del${command}*_`)
 				} else {
-					replygcxeon(`Enter the number!\nExample : ${prefix + command} 91xxxx|Fake name`)
+					replygcxeon(`Enter the number!\nExample : ${prefix + command} 92xxxx|Fake name`)
 				}
 			}
 			break
@@ -15989,7 +15989,7 @@ if (!text) return replygcxeon('Where is the text?')
 			}
 			break
 			case 'ssweb': {
-				if (!text) return replygcxeon(`Example: ${prefix + command} https://github.com/DGXeon`)
+				if (!text) return replygcxeon(`Example: ${prefix + command} https://github.com/GlobalTechInfo`)
 				if (!text.startsWith('http')) {
 					let buf = 'https://image.thum.io/get/width/1900/crop/1000/fullpage/https://' + q;
 					await XeonBotInc.sendMessage(m.chat, { image: { url: buf }, caption: 'Done' }, { quoted: m })
@@ -16401,7 +16401,7 @@ case 'ytmp3': case 'ytaudio': case 'ytplayaudio': {
 				if (!text.includes('youtu')) return replygcxeon('The link is not a youtube link!')
 				const hasil = await ytMp4(text);
 				XeonStickWait()
-				await XeonBotInc.sendMessage(m.chat, { video: { url: hasil.result }, caption: `*📍Title:* ${hasil.title}\n*✏Description:* ${hasil.desc ? hasil.desc : ''}\n*🚀Channel:* ${hasil.channel}\n*🗓Upload at:* ${hasil.uploadDate}` }, { quoted: m });
+				await XeonBotInc.sendMessage(m.chat, { video: { url: hasil.result }, caption: `*⭐Title:* ${hasil.title}\n*✏Description:* ${hasil.desc ? hasil.desc : ''}\n*🎬Channel:* ${hasil.channel}\n*🗓Upload at:* ${hasil.uploadDate}` }, { quoted: m });
 			}
 			break
 			case 'apk': {
@@ -16639,10 +16639,10 @@ break
 				const hasil = await tiktokDl(text);
 				XeonStickWait()
 				if (hasil.size_nowm) {
-					await XeonBotInc.sendFileUrl(m.chat, hasil.data[1].url, `*📍Title:* ${hasil.title}\n*⏳Duration:* ${hasil.duration}\n*🎃Author:* ${hasil.author.nickname} (@${hasil.author.fullname})`, m)
+					await XeonBotInc.sendFileUrl(m.chat, hasil.data[1].url, `*🌟Title:* ${hasil.title}\n*⏳Duration:* ${hasil.duration}\n*🎬Author:* ${hasil.author.nickname} (@${hasil.author.fullname})`, m)
 				} else {
 					for (let i = 0; i < hasil.data.length; i++) {
-						await XeonBotInc.sendFileUrl(m.chat, hasil.data[i].url, `*🚀Image:* ${i+1}`, m)
+						await XeonBotInc.sendFileUrl(m.chat, hasil.data[i].url, `*🌠Image:* ${i+1}`, m)
 					}
 				}
 			}
@@ -16798,7 +16798,7 @@ break
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher}* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *USER INFO* 」❍
 ├ *Name* : ${m.pushName ? m.pushName : 'No name'}
@@ -16946,7 +16946,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -16971,7 +16971,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -17004,34 +17004,24 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🎬\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🔘\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 🍫\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"ALL MENU 🗂️","id":"${prefix}allmenu"}`
    },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
-           ],
-          })
         })
     }
   }
@@ -17139,91 +17129,91 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"MENU 🏷️",
 "sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU",
+"rows":[{"header":"❤️ ALL MENU 😘",
 "title":"click to display",
-"description":"Displays The List Of All The Features",
+"description":"🍬Displays The List Of All The Features🍬",
 "id":"${prefix}allmenu"},
-{"header":"SEARCH MENU",
+{"header":"🎗️ SEARCH MENU 🎗️",
 "title":"click to display",
-"description":"Displays The List Of Search Features",
+"description":"💜Displays The List Of Search Features🫣",
 "id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU",
+{"header":"🗂️ DOWNLOAD MENU ✅",
 "title":"click to display",
-"description":"Displays The List Of Download Features",
+"description":"⭐Displays The List Of Download Features🔰",
 "id":"${prefix}downloadmenu"},
-{"header":"GAME MENU",
+{"header":"🍫 GAME MENU 🚦",
 "title":"click to display",
-"description":"Displays The List Of Game Features",
+"description":"🐦‍🔥Displays The List Of Game Features🍀",
 "id":"${prefix}gamemenu"},
-{"header":"FUN MENU",
+{"header":"💌 FUN MENU 🎊",
 "title":"click to display",
-"description":"Displays The List Of Fun Features",
+"description":"✨Displays The List Of Fun Features🤣",
 "id":"${prefix}funmenu"},
-{"header":"AI MENU",
+{"header":"🌀 AI MENU 🧑‍💻",
 "title":"click to display",
-"description":"Displays The List Of AI Features",
+"description":"🦚Displays The List Of AI Features🦄",
 "id":"${prefix}aimenu"},
-{"header":"GROUP MENU",
+{"header":"🍇GROUP MENU🦋",
 "title":"click to display",
-"description":"Displays The List Of Group Features",
+"description":"🥙Displays The List Of Group Features🍔",
 "id":"${prefix}groupmenu"},
-{"header":"OWNER MENU",
+{"header":"🎀OWNER MENU🍡",
 "title":"click to display",
-"description":"Displays The List Of Owner Features",
+"description":"🎁Displays The List Of Owner Features💺",
 "id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU",
+{"header":"🎭CONVERT MENU🥇",
 "title":"click to display",
-"description":"Displays The List Of Convert Features",
+"description":"💡Displays The List Of Convert Features🔋",
 "id":"${prefix}convertmenu"},
-{"header":"LIST MENU",
+{"header":"🧬LIST MENU🎓",
 "title":"click to display",
-"description":"Displays The List Of List Features",
+"description":"🔖Displays The List Of List Features🖌️",
 "id":"${prefix}listmenu"},
-{"header":"RELIGION MENU",
+{"header":"📚RELIGION MENU📚",
 "title":"click to display",
-"description":"Displays The List Of Religion Features",
+"description":"🔑Displays The List Of Religion Features📿",
 "id":"${prefix}religionmenu"},
-{"header":"NSFW MENU",
+{"header":"🔮NSFW MENU💣",
 "title":"click to display",
-"description":"Displays The List Of NSFW Features",
+"description":"♦️Displays The List Of NSFW Features♦️",
 "id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU",
+{"header":"♀️ANIME MENU♀️",
 "title":"click to display",
-"description":"Displays The List Of Anime Features",
+"description":"🔆Displays The List Of Anime Features🔞",
 "id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU",
+{"header":"📸RANDOM PHOTO MENU📷",
 "title":"click to display",
-"description":"Displays The List Of Random Photo Features",
+"description":"🪄Displays The List Of Random Photo Features🎩",
 "id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU",
+{"header":"🎬RANDOM VIDEO MENU🎞️",
 "title":"click to display",
-"description":"Displays The List Of Random Video Features",
+"description":"📺Displays The List Of Random Video Features📼",
 "id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU",
+{"header":"🧸STICKER MENUⓂ️",
 "title":"click to display",
-"description":"Displays The List Of Sticker Features",
+"description":"🕯️Displays The List Of Sticker Features🪞",
 "id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU",
+{"header":"🪙DATABASE MENU🪢",
 "title":"click to display",
-"description":"Displays The List Of Database Features",
+"description":"🖲️Displays The List Of Database Features💾",
 "id":"${prefix}databasemenu"},
-{"header":"STORE MENU",
+{"header":"📱STORE MENU📟",
 "title":"click to display",
-"description":"Displays The List Of Store Features",
+"description":"🛍️Displays The List Of Store Features💳",
 "id":"${prefix}storemenu"},
-{"header":"STALKER MENU",
+{"header":"🎋STALKER MENU🎉",
 "title":"click to display",
-"description":"Displays The List Of Stalk Features",
+"description":"🚀Displays The List Of Stalk Features🧨",
 "id":"${prefix}stalkermenu"},
-{"header":"BUG MENU",
+{"header":"🕸️BUG MENU🐛",
 "title":"click to display",
-"description":"Displays The List Of Bug Features",
+"description":"🐯Displays The List Of Bug Features🪶",
 "id":"${prefix}bugmenu"},
-{"header":"OTHER MENU",
+{"header":"🥀OTHER MENU🪻",
 "title":"click to display",
-"description":"Displays The List Of Other Features",
+"description":"🫦Displays The List Of Other Features❤️‍🔥",
 "id":"${prefix}othermenu"}]
 }]
 }`
