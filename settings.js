@@ -12,9 +12,9 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //owmner v card
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.ytname = "YT: GlobalTechInfo" //ur yt chanel name
+global.socialm = "GitHub: GlobalTechInfo" //ur github or insta name
+global.location = "Pakistan, Lahore" //ur location
 
 //new
 global.botname = '𝐆𝐋𝐎𝐁𝐀𝐋-𝐌𝐃' //ur bot name
@@ -38,7 +38,7 @@ global.xchannel = {
 
 //bot sett
 global.typemenu = 'v10' // menu type 'v1' => 'v12'
-global.typereply = 'v4' // reply type 'v1' => 'v4'
+global.typereply = 'v2' // reply type 'v1' => 'v4'
 global.autoblocknumber = '91' //set autoblock country code
 global.antiforeignnumber = '94' //set anti foreign number country code
 
