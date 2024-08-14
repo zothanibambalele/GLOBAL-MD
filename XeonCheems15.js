@@ -17012,7 +17012,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🔘\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -17022,10 +17022,30 @@ let msg = generateWAMessageFromContent(m.chat, {
   "name": "quick_reply",
   "buttonParamsJson": `{"display_text":"ALL MENU 🗂️","id":"${prefix}allmenu"}`
    },
-        })
-    }
-  }
-}, { quoted: m })
+		    {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
+                                  ],
+                }),
+                contextInfo: {
+                  mentionedJid: [m.sender], 
+                  forwardingScore: 999,
+                  isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                  newsletterJid: global.xchannel.jid,
+                  newsletterName: ownername,
+                  serverMessageId: 143
+                }
+              }
+              })
+          }
+        },
+      }, { quoted: m })
 
 await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
   messageId: msg.key.id
