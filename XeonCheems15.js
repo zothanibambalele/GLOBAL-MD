@@ -319,7 +319,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 			}
 		}, {
 			scheduled: true,
-			timezone: 'Asia/Kolkata'
+			timezone: 'Asia/Karachi'
 		})
 		
 		if (!XeonBotInc.public) {
@@ -921,7 +921,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/cvXxmHC/cheemspic.jpg',
+thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
 sourceUrl: websitex
 },
 },
