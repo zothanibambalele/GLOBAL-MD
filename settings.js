@@ -1,19 +1,18 @@
 //base by DGXeon
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? 
-//subscribe to my youtube channel: https://youtube.com/@DGXeon
+//YouTube: @GlobalTechInfo
+//Telegram: t.me/GlobalTechInc
+//GitHub: @GlobalTechInfo
 
 const fs = require('fs');
 const chalk = require('chalk');
 
+
+////============JUST CHANGE THOSE WHOM I ADEED //UR INFRONT OF ; DON'T CHANGE OTHER THINGS BECAUSE BOT WILL NOT WORK========\\\\
+
 //owmner v card
-global.ytname = "YT: GlobalTechInfo" //ur yt chanel name
-global.socialm = "GitHub: GlobalTechInfo" //ur github or insta name
+global.ytname = "YT: GlobalTechInfo"
+global.socialm = "GitHub: GlobalTechInfo"
 global.location = "Pakistan, Lahore" //ur location
 
 //new
@@ -23,13 +22,13 @@ global.ownername = 'Stranger' //ur owner name
 global.websitex = "https://www.youtube.com/@GlobalTechInfo"
 global.wagc = "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"
 global.themeemoji = '🪀'
-global.wm = "Global Bot Inc."
-global.botscript = 'https://github.com/GlobalTechInfo/GLOBAL-MD' //script link
+global.wm = "Global Tech Inc."
+global.botscript = 'https://github.com/GlobalTechInfo/GLOBAL-MD'
 global.packname = "Sticker By"
 global.author = "GlobalTechInfo\n\n+923444844060"
 global.creator = "923444844060@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["923444844060"] // Premium User
+global.premium = ["923444844060"] //ur Premium User
 
 //channel id
 global.xchannel = {
@@ -44,6 +43,8 @@ global.antiforeignnumber = '94' //set anti foreign number country code
 
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
+
+////============JUST CHANGE THOSE WHOM I ADEED //UR INFRONT OF ; DON'T CHANGE OTHER THINGS BECAUSE BOT MIGHT NOT WORK========\\\\
 
 global.limit = {
 	free: 100,
