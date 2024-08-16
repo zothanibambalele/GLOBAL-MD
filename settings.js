@@ -32,11 +32,11 @@ global.premium = ["923444844060"] //ur Premium User
 
 //channel id
 global.xchannel = {
-	jid: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+	jid: '923444844060@s.whatsapp.net'
 	}
 
 //bot sett
-global.typemenu = 'v10' // menu type 'v1' => 'v12'
+global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = 'v4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '91' //set autoblock country code
 global.antiforeignnumber = '94' //set anti foreign number country code
