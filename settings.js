@@ -32,7 +32,7 @@ global.premium = ["923444844060"] //ur Premium User
 
 //channel id
 global.xchannel = {
-	jid: '120363222395675670@newsletter'
+	jid: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
 	}
 
 //bot sett
