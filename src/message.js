@@ -132,7 +132,7 @@ async function GroupParticipantsUpdate(XeonBotInc, { id, participants, action })
                 const xtime = moment().tz('Asia/Kolkata').locale('en-IN').format('HH:mm:ss');
 	            const xmembers = metadata.participants.length
                 xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
+│「 𝗛𝗶  」
 └┬❖ 「  @${xeonName.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
    │✑  ${metadata.subject}
@@ -140,7 +140,7 @@ async function GroupParticipantsUpdate(XeonBotInc, { id, participants, action })
    │✑ ${xmembers}th
    │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
    │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+   └───────────────┈···▸▸`
 let msgs = generateWAMessageFromContent(id, {
   viewOnceMessage: {
     message: {
@@ -186,7 +186,7 @@ await XeonBotInc.relayMessage(id, msgs.message, {})
                 const xeontime = moment().tz('Asia/Kolkata').locale('en-IN').format('HH:mm:ss');
 	            const xeonmembers = metadata.participants.length
 					xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲  」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
    │✑ ${metadata.subject}
@@ -194,7 +194,7 @@ await XeonBotInc.relayMessage(id, msgs.message, {})
    │✑ ${xeonmembers}th
    │✑  𝗧𝗶𝗺𝗲 : 
    │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+   └───────────────┈···▸▸`
 let msgs = generateWAMessageFromContent(id, {
   viewOnceMessage: {
     message: {
