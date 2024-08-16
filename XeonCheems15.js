@@ -319,7 +319,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 			}
 		}, {
 			scheduled: true,
-			timezone: 'Asia/Kolkata'
+			timezone: 'Asia/Karachi'
 		})
 		
 		if (!XeonBotInc.public) {
@@ -921,7 +921,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/cvXxmHC/cheemspic.jpg',
+thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
 sourceUrl: websitex
 },
 },
@@ -973,10 +973,10 @@ quoted: m,
         }
         
 //time
-const xday = moment.tz('Asia/Kolkata').locale('en-IN').format('dddd');
-const xdate = moment.tz('Asia/Kolkata').locale('en-IN').format('DD/MM/YYYY');
-const xtime = moment().tz('Asia/Kolkata').locale('en-IN').format('HH:mm:ss');
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xday = moment.tz('Asia/Karachi').locale('en-PK').format('dddd');
+const xdate = moment.tz('Asia/Karachi').locale('en-PK').format('DD/MM/YYYY');
+const xtime = moment().tz('Asia/Karachi').locale('en-PK').format('HH:mm:ss');
+const time2 = moment().tz('Asia/Karachi').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -1573,7 +1573,7 @@ title: botname
                     case 'lovelycheck':
                       case 'uglycheck':
 case 'handsomecheck':{
-				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Qasim`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1618,7 +1618,7 @@ return await XeonBotInc.relayMessage(m.chat, msgs.message, {})
 }
 					break
 case 'beautifulcheck':{
-				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Qasim`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1663,7 +1663,7 @@ return await XeonBotInc.relayMessage(m.chat, msgs.message, {})
 }
 					break
 					case 'charactercheck':{
-					if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Qasim`)
 					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1818,9 +1818,9 @@ break
         `Susbcribe Developer's YouTube Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://youtube.com/@dgxeon', // Command (URL in this case)
+        'https://youtube.com/@GlobalTechInfo', // Command (URL in this case)
         'cta_url', // Button type
-        'https://youtube.com/@dgxeon' // URL (used in image generation)
+        'https://youtube.com/@GlobalTechInfo' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1024px-Telegram_2019_Logo.svg.png', // Image URL
@@ -1828,9 +1828,9 @@ break
         `Susbcribe Developer's Telegram Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'http://t.me/xeonbotinc', // Command (URL in this case)
+        'http://t.me/GlobalTechInc', // Command (URL in this case)
         'cta_url', // Button type
-        'http://t.me/xeonbotinc' // URL (used in image generation)
+        'http://t.me/GlobalTechInc' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/360px-GitHub_Invertocat_Logo.svg.png', // Image URL
@@ -1838,9 +1838,9 @@ break
         `Follow Developer On GitHub`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://github.com/DGXeon', // Command (URL in this case)
+        'https://github.com/GlobalTechInfo', // Command (URL in this case)
         'cta_url', // Button type
-        'https://github.com/DGXeon' // URL (used in image generation)
+        'https://github.com/GlobalTechInfo' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png', // Image URL
@@ -1858,9 +1858,9 @@ break
         `Contact Developer On WhatsApp`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://Wa.me/916909137213', // Command (URL in this case)
+        'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07', // Command (URL in this case)
         'cta_url', // Button type
-        'https://Wa.me/916909137213' // URL (used in image generation)
+        'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07' // URL (used in image generation)
     ], 
 ];
 
@@ -8915,7 +8915,7 @@ await XeonBotInc.relayMessage(m.chat, msgs.message, {})
     break
     case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 let me = m.sender
-let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/y6XmZ2b/donate.png`
+let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://telegra.ph/file/f6119ab1993a2d875843a.jpg`
 sendXeonBotIncMessage(m.chat, { 
 text: teks,
 mentions:[sender],
@@ -8988,7 +8988,7 @@ case 'runtime': {
 			}
 			break
 case 'ghstalk': case 'githubstalk':{
-if (!q) return replygcxeon(`Example ${prefix+command} DGXeon`)
+if (!q) return replygcxeon(`Example ${prefix+command} Qasim`)
 await XeonStickWait()
 let githubstalk = require('./lib/scraper')
 aj = await githubstalk.githubstalk(`${q}`)
@@ -10497,7 +10497,7 @@ if (!XeonTheCreator) return XeonStickOwner()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -10892,7 +10892,7 @@ XeonBotInc.sendMessage(m.chat, {text: `Here @${teman.split("@")[0]}`, mentions: 
 }
 break
             case 'wanumber': case 'nowa': case 'searchno': case 'searchnumber':{
-           	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 91690913721x`)
+           	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 92344484406x`)
 var inputnumber = text.split(" ")[0]
         
         replygcxeon(`Searching for WhatsApp account in given range...`)
@@ -10940,7 +10940,7 @@ var inputnumber = text.split(" ")[0]
                 if (anu1 == '401' || anu1.status.length == 0) {
                     nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
                 } else {
-                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Karachi').format('HH:mm:ss DD/MM/YYYY')}\n\n`
                 }
             } catch {
                 nowhatsapp += `${number0}${i}${number1}\n`
@@ -11460,7 +11460,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
   response.forEach((request, index) => {
     const { jid, request_method, request_time } = request;
     const formattedTime = new Date(parseInt(request_time) * 1000).toLocaleString();
-    replyMessage += `\n*No.: ${index + 1} Request Details. 👇*`;
+    replyMessage += `\n*No.: ${index + 1} Request Details.*`;
     replyMessage += `\n🧟‍♂️ *JID:* ${jid}`;
     replyMessage += `\n🧪 *Method:* ${request_method}`;
     replyMessage += `\n⏰ *Time:* ${formattedTime}\n`;
@@ -11530,7 +11530,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -11606,7 +11606,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -11881,7 +11881,7 @@ break
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12069,7 +12069,7 @@ break
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12223,7 +12223,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12298,7 +12298,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12373,7 +12373,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12448,7 +12448,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12523,7 +12523,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12595,7 +12595,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12668,7 +12668,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12741,7 +12741,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12816,7 +12816,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12891,7 +12891,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -12966,7 +12966,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -13041,7 +13041,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -13115,7 +13115,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -13189,7 +13189,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -13263,7 +13263,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -13450,7 +13450,7 @@ if (!XeonTheCreator) return XeonStickOwner()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -13855,7 +13855,7 @@ const teksop = `     「 Create Group 」
 
 ▸ Name : ${cret.subject}
 ▸ Owner : @${cret.owner.split("@")[0]}
-▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}
+▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}
 
 https://chat.whatsapp.com/${response}`
 XeonBotInc.sendMessage(m.chat, { text:teksop, mentions: await XeonBotInc.parseMention(teksop)}, {quoted:m})
@@ -14206,7 +14206,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -14264,7 +14264,7 @@ if (!m.isAdmin && !XeonTheCreator) return XeonStickAdmin()
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14361,7 +14361,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14433,7 +14433,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14505,7 +14505,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14577,7 +14577,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14649,7 +14649,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14734,7 +14734,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14807,7 +14807,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14880,7 +14880,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -14952,7 +14952,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -15024,7 +15024,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -15095,7 +15095,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -15167,7 +15167,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             buttons: [
               {
                 "name": "single_select",
-                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE ♨️",
+                "buttonParamsJson": `{"title":"SELECT ENABLE/DISABLE",
 "sections":[{"title":"CHOOSE ENABLE/DISABLE",
 "rows":[{"header":"ENABLE ✅",
 "title":"CHOOSE ",
@@ -15216,7 +15216,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
                 	let button = [{
 						name: 'single_select',
 						buttonParamsJson: {
-							title: 'SELECT 🌹',
+							title: 'SELECT',
 							sections: [{
 								title: 'BOT MODE',
 								rows: [
@@ -15226,7 +15226,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 							}]
 						}
 					}]
-                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose 🌹', null, button, m);
+                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'PLEASE CHOOSE', null, button, m);
                 	}
                 }
                 break
@@ -15687,7 +15687,7 @@ list.push({
 			break
 			case 'req': case 'request': {
 				if (!text) return replygcxeon('What do you want to request from the owner??')
-				await XeonBotInc.sendMessage(m.chat, { text: `*Request Has Been Sent To Owner*\n_Thank You🙏_` }, { quoted: m })
+				await XeonBotInc.sendMessage(m.chat, { text: `*Request Has Been Sent To Owner*\n_Thank You_` }, { quoted: m })
 				await XeonBotInc.sendFromOwner(ownernumber, `Order From : @${m.sender.split('@')[0]}\nFor Owners\n\nRequest ${text}`, m, { contextInfo: { mentionedJid: [m.sender], isForwarded: true }})
 			}
 			break
@@ -16798,7 +16798,7 @@ break
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *USER INFO* 」❍
 ├ *Name* : ${m.pushName ? m.pushName : 'No name'}
@@ -16806,7 +16806,7 @@ break
 ├ *Id* : @${m.sender.split('@')[0]}
 ├ *User* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
 ├ *Limit* : ${isVip ? 'VIP' : global.db.users[m.sender].limit }
-├ *Money* : ${global.db.users[m.sender] ? global.db.users[m.sender].uang.toLocaleString('en-IN') : '0'}
+├ *Money* : ${global.db.users[m.sender] ? global.db.users[m.sender].uang.toLocaleString('en-PK') : '0'}
 ╰─┬────❍
 ╭─┴─❍「 *BOT INFO* 」❍
 ├ *Speed* : ${latensie.toFixed(4)} miliseconds
@@ -16946,7 +16946,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -16971,7 +16971,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -17139,7 +17139,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${botname}",
 "rows":[{"header":"ALL MENU",
 "title":"click to display",
@@ -17230,28 +17230,20 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+	      }
            ],
           }),
           contextInfo: {
@@ -17280,7 +17272,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -18016,7 +18008,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18042,7 +18034,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -18210,7 +18202,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
 "rows":[{"header":"ALL MENU",
@@ -18222,28 +18214,20 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+	      }
            ],
           }),
           contextInfo: {
@@ -18272,7 +18256,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -18456,7 +18440,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18482,7 +18466,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -18650,7 +18634,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
 "rows":[{"header":"ALL MENU",
@@ -18662,28 +18646,20 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+	      }
            ],
           }),
           contextInfo: {
@@ -18712,12 +18688,13 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
 ├ *🅕 = For Free User*
-├ *🅟 = For Premium User*
+├ *🅟 = For Premium 
+User*
 ╰─┬────❍
 ╭─┴❍「 *Group* 」❍
 │${setv} ${prefix}antibot 🅖
@@ -18875,7 +18852,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18901,7 +18878,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19069,7 +19046,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
 "rows":[{"header":"ALL MENU",
@@ -19081,28 +19058,20 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+	     }
            ],
           }),
           contextInfo: {
@@ -19131,7 +19100,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -19249,7 +19218,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19275,7 +19244,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19443,7 +19412,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
 "rows":[{"header":"ALL MENU",
@@ -19455,28 +19424,20 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+	      }
            ],
           }),
           contextInfo: {
@@ -19505,7 +19466,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -19637,7 +19598,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19663,7 +19624,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19831,7 +19792,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
 "rows":[{"header":"ALL MENU",
@@ -19843,28 +19804,20 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
-              },
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
-              }
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+	      }
            ],
           }),
           contextInfo: {
@@ -20298,7 +20251,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -20416,7 +20369,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/f6119ab1993a2d875843a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20442,7 +20395,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/f6119ab1993a2d875843a.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20610,7 +20563,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"MENU 🌺",
+`{"title":"GLOBAL MENU",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
 "rows":[{"header":"ALL MENU",
@@ -20622,19 +20575,19 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 📶\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 🌠\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp 📱\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -23010,7 +22963,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
+├ *${xeonytimewisher} 🥰* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
