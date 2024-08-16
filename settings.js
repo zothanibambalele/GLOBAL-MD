@@ -8,17 +8,20 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 
-////============JUST CHANGE THOSE WHOM I ADEED //UR INFRONT OF ; DON'T CHANGE OTHER THINGS BECAUSE BOT WILL NOT WORK========\\\\
+////============ 🚫JUST CHANGE THOSE WHOM I ADEED //YOUR INFRONT OF ; DON'T CHANGE OTHER THINGS BECAUSE BOT WILL NOT WORK 🚫========\\\\
 
 //owmner v card
 global.ytname = "YT: GlobalTechInfo"
 global.socialm = "GitHub: GlobalTechInfo"
-global.location = "Pakistan, Lahore" //ur location
 
-//new
-global.botname = '𝐆𝐋𝐎𝐁𝐀𝐋-𝐌𝐃' //ur bot name
-global.ownernumber = ['923444844060'] //ur owner number, dont add more than one
-global.ownername = 'Stranger' //ur owner name
+//========👇 CHANGE AS PER YOUR'S IF YOU WANT 👇 =====//
+global.location = "Pakistan, Lahore" // cahnge as per your location
+global.botname = '𝐆𝐋𝐎𝐁𝐀𝐋-𝐌𝐃' // if you wana change your bot name
+global.ownernumber = ['923444844060'] // your owner number, dont add more than one
+global.ownername = 'Stranger' // your owner name
+global.premium = ["923444844060"] // your Premium User
+
+//====== 🚫DON'T CHANGE BELOW CREDENTIALS OTHERWISE BOT MIGHT NOT WORK🚫 =====\\
 global.websitex = "https://www.youtube.com/@GlobalTechInfo"
 global.wagc = "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"
 global.themeemoji = '🪀'
@@ -28,14 +31,13 @@ global.packname = "Sticker By"
 global.author = "GlobalTechInfo\n\n+923444844060"
 global.creator = "923444844060@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["923444844060"] //ur Premium User
-
 //channel id
 global.xchannel = {
 	jid: '923444844060@s.whatsapp.net'
 	}
 
-//bot sett
+//bot settings👇 ////====== personalize as you want👇 =======\\\\
+
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = 'v4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '91' //set autoblock country code
