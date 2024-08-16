@@ -33,7 +33,7 @@ global.creator = "923444844060@s.whatsapp.net"
 global.xprefix = '.'
 //channel id
 global.xchannel = {
-	jid: '923444844060@s.whatsapp.net'
+	jid: '120363319098372999@newsletter'
 	}
 
 //bot settings👇 ////====== personalize as you want👇 =======\\\\
