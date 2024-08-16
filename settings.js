@@ -46,7 +46,7 @@ global.antiforeignnumber = '94' //set anti foreign number country code
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
 
-////============JUST CHANGE THOSE WHOM I ADEED //UR INFRONT OF ; DON'T CHANGE OTHER THINGS BECAUSE BOT MIGHT NOT WORK========\\\\
+////====JUST CHANGE THOSE WHOM I ADEED //UR INFRONT OF ; DON'T CHANGE OTHER THINGS BECAUSE BOT MIGHT NOT WORK====\\\\
 
 global.limit = {
 	free: 100,
