@@ -35,15 +35,15 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
   
 #### Fork The Repo
 
-<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/fork"><img title="GLOBAL-MD" src="https://img.shields.io/badge/FORK-GLOBAL MD-h?color=red&style=for-the-badge&logo=stackshare" width="300" height="50"></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/fork"><img title="GLOBAL-MD" src="https://img.shields.io/badge/FORK-GLOBAL MD-h?color=red&style=for-the-badge&logo=stackshare" width="200" height="50"></a>
 
 ## `Generate Pair Code For Session`
 
-<a href='https://globaltechinfo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-magenta?style=for-the-badge&logo=opencv&logoColor=white' width="300" height="50"/></a>
+<a href='https://globaltechinfo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-magenta?style=for-the-badge&logo=opencv&logoColor=white' width="200" height="50"/></a>
 
 # OR
 
-<a href='https://replit.com/@DGXeon/Xeon-PairCode' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-magenta?style=for-the-badge&logo=opencv&logoColor=white' width="300" height="50"/></a>
+<a href='https://replit.com/@DGXeon/Xeon-PairCode' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-magenta?style=for-the-badge&logo=opencv&logoColor=white' width="200" height="50"/></a>
 
 #### NOW UPLOAD YOUR CREDS.JSON FILE INSIDE SESSION FOLDER
 
