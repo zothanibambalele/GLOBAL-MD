@@ -1,13 +1,5 @@
-//base by DGXeon
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? 
-//subscribe to my youtube channel: https://youtube.com/@DGXeon
-
+//subscribe to my youtube channel: https://youtube.com/@GlobalTechInfo
+// WHATSAPP CHANNEL: https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
 require('../settings');
 const fs = require('fs');
 const path = require('path');
