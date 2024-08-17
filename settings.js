@@ -1,12 +1,4 @@
-//base by DGXeon
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? 
-//subscribe to my youtube channel: https://youtube.com/@DGXeon
+
 
 const fs = require('fs');
 const chalk = require('chalk');
@@ -20,7 +12,7 @@ global.location = "Pakistan, Sialkot, Lahore" //ur location
 global.botname = '𝐆𝐋𝐎𝐁𝐀𝐋-𝐌𝐃' //ur bot name
 global.ownernumber = ['923444844060'] //ur owner number, dont add more than one
 global.ownername = '𝐆𝐋𝐎𝐁𝐀𝐋-𝐌𝐃' //ur owner name
-global.websitex = "https://youtu.be/tLq8_qOOGFI"
+global.websitex = "https://youtube.com/GlobalTechInfo"
 global.wagc = "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"
 global.themeemoji = '🪀'
 global.wm = "Global Bot Inc."
