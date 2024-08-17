@@ -17135,89 +17135,89 @@ let msg = generateWAMessageFromContent(m.chat, {
                 "buttonParamsJson": 
 `{"title":"GLOBAL MENU",
 "sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU",
+"rows":[{"header":"📶 ALL MENU 🎊",
 "title":"click to display",
-"description":"Displays The List Of All The Features",
+"description":"🌠Displays The List Of All The Features🎁",
 "id":"${prefix}allmenu"},
-{"header":"SEARCH MENU",
+{"header":"🪄 SEARCH MENU ❤️‍🔥",
 "title":"click to display",
-"description":"Displays The List Of Search Features",
+"description":"🧨Displays The List Of Search FeaturesⓂ️",
 "id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU",
+{"header":"🖲️DOWNLOAD MENU🛍️",
 "title":"click to display",
-"description":"Displays The List Of Download Features",
+"description":"🦄Displays The List Of Download Features💕",
 "id":"${prefix}downloadmenu"},
-{"header":"GAME MENU",
+{"header":"🎩GAME MENU🚀",
 "title":"click to display",
-"description":"Displays The List Of Game Features",
+"description":"🍂Displays The List Of Game Features🌺",
 "id":"${prefix}gamemenu"},
-{"header":"FUN MENU",
+{"header":"🎭FUN MENU🏖️",
 "title":"click to display",
-"description":"Displays The List Of Fun Features",
+"description":"🎷Displays The List Of Fun Features🥁",
 "id":"${prefix}funmenu"},
-{"header":"AI MENU",
+{"header":"🚦AI MENU🛫",
 "title":"click to display",
-"description":"Displays The List Of AI Features",
+"description":"🍡Displays The List Of AI Features🛟",
 "id":"${prefix}aimenu"},
-{"header":"GROUP MENU",
+{"header":"🐦‍🔥GROUP MENU💺",
 "title":"click to display",
-"description":"Displays The List Of Group Features",
+"description":"🍁Displays The List Of Group Features🌀",
 "id":"${prefix}groupmenu"},
-{"header":"OWNER MENU",
+{"header":"🍫OWNER MENU🍕",
 "title":"click to display",
-"description":"Displays The List Of Owner Features",
+"description":"🥇Displays The List Of Owner Features🎀",
 "id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU",
+{"header":"🎲CONVERT MENU🎴",
 "title":"click to display",
-"description":"Displays The List Of Convert Features",
+"description":"💡Displays The List Of Convert Features🔋",
 "id":"${prefix}convertmenu"},
-{"header":"LIST MENU",
+{"header":"🧣LIST MENU🪢",
 "title":"click to display",
-"description":"Displays The List Of List Features",
+"description":"📊Displays The List Of List Features📑",
 "id":"${prefix}listmenu"},
-{"header":"RELIGION MENU",
+{"header":"📚RELIGION MENU📚",
 "title":"click to display",
-"description":"Displays The List Of Religion Features",
+"description":"🍓Displays The List Of Religion Features🍒",
 "id":"${prefix}religionmenu"},
-{"header":"NSFW MENU",
+{"header":"🤩NSFW MENU🥵",
 "title":"click to display",
-"description":"Displays The List Of NSFW Features",
+"description":"🔰Displays The List Of NSFW Features♻️",
 "id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU",
+{"header":"🚾ANIME MENU☪️",
 "title":"click to display",
-"description":"Displays The List Of Anime Features",
+"description":"🩷Displays The List Of Anime Features♀️",
 "id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU",
+{"header":"💣RANDOM PHOTO MENU🔮",
 "title":"click to display",
-"description":"Displays The List Of Random Photo Features",
+"description":"🔖Displays The List Of Random Photo Features💌",
 "id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU",
+{"header":"👑RANDOM VIDEO MENU🧬",
 "title":"click to display",
-"description":"Displays The List Of Random Video Features",
+"description":"🎸Displays The List Of Random Video Features🪞",
 "id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU",
+{"header":"🧧STICKER MENU🏆",
 "title":"click to display",
-"description":"Displays The List Of Sticker Features",
+"description":"🍹Displays The List Of Sticker Features🚇",
 "id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU",
+{"header":"🦋DATABASE MENU🍭",
 "title":"click to display",
-"description":"Displays The List Of Database Features",
+"description":"🐼Displays The List Of Database Features🦚",
 "id":"${prefix}databasemenu"},
-{"header":"STORE MENU",
+{"header":"🧬STORE MENU🍁",
 "title":"click to display",
-"description":"Displays The List Of Store Features",
+"description":"💃Displays The List Of Store Features😎",
 "id":"${prefix}storemenu"},
-{"header":"STALKER MENU",
+{"header":"🌟STALKER MENU💝",
 "title":"click to display",
-"description":"Displays The List Of Stalk Features",
+"description":"🍃Displays The List Of Stalk Features🧑‍💻",
 "id":"${prefix}stalkermenu"},
-{"header":"BUG MENU",
+{"header":"🐛BUG MENU🍇",
 "title":"click to display",
-"description":"Displays The List Of Bug Features",
+"description":"🍟Displays The List Of Bug Features🥪",
 "id":"${prefix}bugmenu"},
-{"header":"OTHER MENU",
+{"header":"🎗️OTHER MENU🎡",
 "title":"click to display",
-"description":"Displays The List Of Other Features",
+"description":"♦️Displays The List Of Other Features〽️",
 "id":"${prefix}othermenu"}]
 }]
 }`
@@ -20766,7 +20766,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20792,7 +20792,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21128,7 +21128,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21154,7 +21154,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21486,7 +21486,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21512,7 +21512,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21859,7 +21859,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21885,7 +21885,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22227,7 +22227,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22253,7 +22253,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22653,7 +22653,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22679,7 +22679,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23022,7 +23022,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23048,7 +23048,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/55a3d2b29be54d8d81b63.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23519,7 +23519,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23545,7 +23545,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23895,7 +23895,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23921,7 +23921,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24265,7 +24265,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24291,7 +24291,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24632,7 +24632,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24658,7 +24658,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24997,7 +24997,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25023,7 +25023,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25368,7 +25368,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25394,7 +25394,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25746,7 +25746,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/82336d4b04ac81b77e18e.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25772,7 +25772,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://telegra.ph/file/82336d4b04ac81b77e18e.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26282,7 +26282,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
 	} catch (err) {
 		console.log(util.format(err))
         let e = String(err)
-XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "🌹 Hello developer, there seems to be an error, please fix it " + util.format(e), 
+XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
