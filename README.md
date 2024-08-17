@@ -101,10 +101,6 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 
 
-
-## ☢️`Reminder`
-Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
-
 ## `For Termux/Ubuntu`
 ```bash
 apt update && apt upgrade -y
