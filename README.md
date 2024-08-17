@@ -38,12 +38,12 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 <a href="https://github.com/GlobalTechInfo/GLOBAL-MD/fork"><img title="GLOBAL-MD" src="https://img.shields.io/badge/FORK-GLOBAL MD-h?color=red&style=for-the-badge&logo=stackshare"></a>
 
 ## `Generate Pair Code For Session`
-1st Pair Code Website Might Take 1 Or 2 Minutes To Open
+1st Pair Code Website Might Take 30 to 90 seconds To Open
 
 <a href='https://globaltechinfo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 # OR
-2nd Run on Replit
+2nd Run on Replit Console, Type number and click Enter
 
 <a href='https://replit.com/@DGXeon/Xeon-PairCode' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
