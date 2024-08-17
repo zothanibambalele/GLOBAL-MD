@@ -39,10 +39,10 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## `Generate Pair Code For Session`
 
-<a href='https://globaltechinfo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-pink?style=for-the-badge&logo=opencv&logoColor=white' width="300" height="50"/></a>
+<a href='https://globaltechinfo.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-magenta?style=for-the-badge&logo=opencv&logoColor=white' width="300" height="50"/></a>
 
 
-<a href='https://replit.com/@GlobalTechInfo/PAIR-CODE' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-pink?style=for-the-badge&logo=opencv&logoColor=white' width="300" height="50"/></a>
+<a href='https://replit.com/@GlobalTechInfo/PAIR-CODE' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-orange?style=for-the-badge&logo=opencv&logoColor=white' width="300" height="50"/></a>
 
 #### NOW UPLOAD YOUR CREDS.JSON FILE INSIDE SESSION FOLDER
 
