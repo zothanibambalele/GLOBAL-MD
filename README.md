@@ -51,7 +51,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## DEPLOY TO REPLIT
 
-   <a href='https://repl.it/github/GlobalTechInfo/KING-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white' width="200" height="50"/></a>
+   <a href='https://repl.it/github/GlobalTechInfo/GLOBAL-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white' width="200" height="50"/></a>
 
 
 ## DEPLOY TO CODESPACE
@@ -84,14 +84,13 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 
 ## 🏷️`OWNER` 
-<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" width="300" height="250" alt="Qasim Ali"/></a>
+<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" width="300" height="270" alt="Qasim Ali"/></a>
   
-**KING-MD** - By `GlobalTechInfo`
+**GLOBAL-MD** - By `GlobalTechInfo`
 <br>
 `Development , Maintainence , Bot Updates`
 
 
-# ❤️``SUPPORT CHANNEL``
 [![JOIN WHATSAPP CHANNEL](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)](https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07))
 
 
@@ -100,45 +99,19 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 ## ☢️`Reminder`
 Misusing the bot may result in a ban from WhatsApp. Use at your own risk.
 
-
-# Install Manually
-## `Requirements`
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
-## `Clone Repo & Installation dependencies`
-```bash
-git clone https://github.com/<your gitHub Username>/KING-MD.git
-cd KING-MD
-npm start
-```
-## `For Termux/Ssh/Ubuntu`
+## `For Termux/Ubuntu`
 ```bash
 apt update && apt upgrade -y
 pkg update && pkg upgrade -y
-pkg install -y libwebp git nodejs ffmpeg wget imagemagick
-git clone https://github.com/<your gitHub Username>/KING-MD
-cd KING-MD
+pkg install proot-distro
+proot-distro install ubuntu
+proot-distro login ubuntu
+apt update && apt upgrade -y
+apt install -y webp git nodejs ffmpeg wget imagemagick
+git clone https://github.com/<your gitHub Username>/GLOBAL-MD
+cd GLOBAL-MD
 npm install
 npm start
-```
-## `For VPS`
-```bash
-apt install nodejs 
-apt install git 
-apt install ffmpeg
-apt install libwebp 
-apt install imagemagick
-apt install bash
-git clone https://github.com/<your gitHub Username>/KING-MD
-cd KING-MD
-npm start
-```
-## `For 24/7 Activation (Termux)`
-```bash
-npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 
 ## ♦️`Reminder`
@@ -147,15 +120,5 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
-
-
-## ♦️`NOTICE`
-   
-## 
-- Not For Sale
-- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
-- Have A Good Day Ahead
-- Don't Use This Script As Your Bot Base 
----
 
  <br><br>
