@@ -43,52 +43,52 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 # OR
 
-<a href='https://replit.com/@DGXeon/Xeon-PairCode' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-magenta?style=for-the-badge&logo=opencv&logoColor=white' width="200" height="50"/></a>
+<a href='https://replit.com/@DGXeon/Xeon-PairCode' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
-#### NOW UPLOAD YOUR CREDS.JSON FILE INSIDE SESSION FOLDER
+#### NOW UPLOAD YOUR CREDS.JSON FILE INSIDE SESSION FOLDER OF YOUR FORK
 
 # ⚙️ `Deployments`
 
 ## DEPLOY TO HEROKU 
 
-<a href='https:dashboard.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-rebeccapurple?style=for-the-badge&logo=heroku&logoColor=white' width="200" height="50"/></a>
+<a href='https:dashboard.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-rebeccapurple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 ## DEPLOY TO REPLIT
 
-   <a href='https://repl.it/github/GlobalTechInfo/GLOBAL-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white' width="200" height="50"/></a>
+   <a href='https://repl.it/github/GlobalTechInfo/GLOBAL-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 ## DEPLOY TO CODESPACE
 
-<a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode' width="200" height="50"/></a></p>
+<a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 ## DEPLOY TO OKTETO
 
-<a href='https://cloud.okteto.com/login' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/OKTETO-h?color=indigo&style=for-the-badge&logo=opera' width="200" height="50"/></a></p>
+<a href='https://cloud.okteto.com/login' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/OKTETO-h?color=indigo&style=for-the-badge&logo=opera'/></a></p>
 
 ## DEPLOY TO RAILWAY
 
-<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=black&style=for-the-badge&logo=railway' width="200" height="50"/></a></p>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=black&style=for-the-badge&logo=railway'/></a></p>
 
 
 ## DEPLOY TO COOLIFY
 
-<a href='https://coolify.io/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/COOLIFY-h?color=fushia&style=for-the-badge&logo=chrome' width="200" height="50"/></a></p>
+<a href='https://coolify.io/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/COOLIFY-h?color=fushia&style=for-the-badge&logo=chrome'/></a></p>
 
 ## DEPLOY TO RENDER
 
-<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render' width="200" height="50"/></a></p>
+<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render'/></a></p>
 
 ## DEPLOY TO SCALINGO
 
-<a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/SCALINGO-h?color=olive&style=for-the-badge&logo=scalingo' width="200" height="50"/></a></p>
+<a href='https://auth.scalingo.com/users/sign_in' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/SCALINGO-h?color=olive&style=for-the-badge&logo=scalingo'/></a></p>
 
 ## DEPLOY TO KOYEB    
 [![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/auth/signup)  
 
 
 ## 🏷️`OWNER` 
-<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" width="300" height="270" alt="Qasim Ali"/></a>
+<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" alt="Qasim Ali"/></a>
   
 **GLOBAL-MD** - By `GlobalTechInfo`
 <br>
