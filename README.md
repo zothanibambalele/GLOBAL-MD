@@ -1,50 +1,41 @@
-# 🍫FULLY BUTTONS🍫
-
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=3F00FF&center=true&width=900&height=100&lines=Its%20KING-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20QASIM%20ALI)
-<p align="center">  
-
-</p>
-
-
 <p align="center">
-<a href="https://github.com/GlobalTechInfo"><img title="Author" src="https://telegra.ph/file/da3366bb4fd252566d065.jpg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/GlobalTechInfo"><img title="Author" src="https://telegra.ph/file/78899ccfed9d3ec2fee61.jpg?style=for-the-badge&logo=github"></a>
 
-KIND-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](https://github.com/GlobalTechInfo). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
+GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](https://github.com/GlobalTechInfo). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
 
-<p align="center"><img src="https://profile-counter.glitch.me/{KING-MD}/count.svg" alt="Qasim Ali :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{GLOBAL-MD}/count.svg" alt="Qasim Ali :: Visitor's Count" /></p>
 
 
 <p align="center">
 <a href="https://github.com/GlobalTechInfo/followers"><img title="Followers" src="https://img.shields.io/github/followers/GlobalTechInfo?color=red&style=flat-square"></a>
-<a href="https://github.com/GlobalTechInfo/KING-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/GlobalTechInfo/KING-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/GlobalTechInfo/KING-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GlobalTechInfo/KING-MD?color=red&style=flat-square"></a>
-<a href="https://github.com/GlobalTechInfo/KING-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/GlobalTechInfo/KING-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/GlobalTechInfo/KING-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-Qasim%20Ali-red?v=103"></a>
-<a href="https://github.com/GlobalTechInfo/KING-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/GlobalTechInfo/KING-MD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGlobalTechInfo%2FKING-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/GlobalTechInfo/KING-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/GlobalTechInfo/GLOBAL-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GlobalTechInfo/GLOBAL-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/GlobalTechInfo/GLOBAL-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-Qasim%20Ali-red?v=103"></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/GlobalTechInfo/GLOBAL-MD?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGlobalTechInfo%2FGLOBAL-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
 </p>
 
 
 <p align="center">
-<a href="https://youtube.com/@GlobalTechInfo"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@DGXeon" /><br>
-<a href="https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"><img src="https://img.shields.io/badge/WhatsApp Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&link=https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20" /><br>
+<a href="https://youtube.com/@GlobalTechInfo"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@GlobalTechInfo" /><br>
+<a href="https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"><img src="https://img.shields.io/badge/WhatsApp Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&link=https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" /><br>
 <a href="https://t.me/GlobalTechInc"><img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" />
 <p>
   
 ####
 
-*KING-MD*  An Advanced Multi Device whatsapp bot Having More than 900+ Features Based on *CHEEMS V15.5*
+*GLOBAL-MD*  An Advanced Multi Device whatsapp bot Having More than 700+ Features Based on *CHEEMS V15.5*
 -------
 
 ## 🛠️ `Installation Method`
   
 #### Fork The Repo
 
-<a href="https://github.com/GlobalTechInfo/KING-MD/fork"><img title="KING-MD" src="https://img.shields.io/badge/FORK-KING MD-h?color=red&style=for-the-badge&logo=stackshare" width="300" height="50"></a>
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/fork"><img title="GLOBAL-MD" src="https://img.shields.io/badge/FORK-GLOBAL MD-h?color=red&style=for-the-badge&logo=stackshare" width="300" height="50"></a>
 
 ## `Generate Pair Code For Session`
 
