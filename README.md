@@ -53,7 +53,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## DEPLOY TO HEROKU 
 
-<a href='https:dashboard.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-rebeccapurple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://id.heroku.com/login' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-rebeccapurple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 ## DEPLOY TO REPLIT
 
