@@ -87,7 +87,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## DEPLOY TO KOYEB
 
-<a href='https:app.koyeb.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-KOYEB-blue?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+<a href='https://app.koyeb.com/auth/signin' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-KOYEB-blue?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
 
 ## 🏷️`OWNER` 
 <a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" alt="Qasim Ali"/></a>
