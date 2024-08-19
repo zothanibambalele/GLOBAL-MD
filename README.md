@@ -115,16 +115,14 @@ cd GLOBAL-MD
 npm install
 npm start
 ```
-
 ### Features
 | Menu ⁠➜ | Bot | Group | Search | Download | Tools | Ai | Game | Fun | Owner | Bug | Convert | List | Religion | NSFW | 
 | --------| --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- | ----| --------| -----| ---------| -----|
 | Work ➜ |  ✅ |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |    ✅   |  ✅   |
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
 | Menu ⁠➜ | Anime | Photo| Video | Database | Sticker | Stalker | Other |
 | --------| ----- | ---- | ----- | -------- | ------- | ------- | ------|
 | Work ➜ |   ✅  |   ✅ |   ✅  |    ✅    |    ✅   |    ✅   |   ✅  |
-
 
 ## ♦️`Reminder`
    
