@@ -115,7 +115,8 @@ cd GLOBAL-MD
 npm install
 npm start
 ```
-### Features
+### Features 💌
+### Scroll Left To Right
 | Menu ⁠➜ | Bot | Group | Search | Download | Tools | Ai | Game | Fun | Owner | Bug | Convert | List |
 | --------| --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- | ----| --------| -----|
 | Work ➜ |  ✅ |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |
