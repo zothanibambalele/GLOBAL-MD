@@ -60,7 +60,7 @@ async function startXeonBot() {
 			return msg?.message
 		}
 		return {
-			conversation: 'Cheems Bot Here!'
+			conversation: 'GLOBAL-MD Here!'
 		}
 	}
 	
@@ -116,7 +116,7 @@ async function startXeonBot() {
 			phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 			
 			if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v)) && !phoneNumber.length < 6) {
-				console.log(chalk.bgBlack(chalk.redBright('Start with your Country WhatsApp code') + chalk.whiteBright(',') + chalk.greenBright(' Example : 62xxx')));
+				console.log(chalk.bgBlack(chalk.redBright('Start with your Country WhatsApp code') + chalk.whiteBright(',') + chalk.greenBright(' Example : 92xxx')));
 				await getPhoneNumber()
 			}
 		}
@@ -165,7 +165,7 @@ async function startXeonBot() {
 			}
 		}
 		if (connection == 'open') {
-			console.log('Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
+			console.log('✅ Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
 		} else if (receivedPendingNotifications == 'true') {
 			console.log('Please wait About 1 Minute...')
 		}
