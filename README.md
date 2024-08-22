@@ -51,6 +51,11 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 # ⚙️ `Deployments`
 
+## BOT HOSTING PANEL
+<a href='https://bot-hosting.net/?aff=1097457675723341836' target="_blank"><img alt='Panel Link'
+src='https://img.shields.io/badge/HOSTING%20PANEL-blue?style=for-the-badge&logo=Cloudflare&logoColor=white'/></a>
+
+
 ## DEPLOY TO HEROKU 
 
 <a href='https://id.heroku.com/login' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-rebeccapurple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
@@ -64,18 +69,9 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 <a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
-## DEPLOY TO OKTETO
-
-<a href='https://cloud.okteto.com/login' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/OKTETO-h?color=indigo&style=for-the-badge&logo=opera'/></a></p>
-
 ## DEPLOY TO RAILWAY
 
 <a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=black&style=for-the-badge&logo=railway'/></a></p>
-
-
-## DEPLOY TO COOLIFY
-
-<a href='https://coolify.io/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/COOLIFY-h?color=fushia&style=for-the-badge&logo=chrome'/></a></p>
 
 ## DEPLOY TO RENDER
 
