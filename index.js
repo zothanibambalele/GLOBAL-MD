@@ -203,21 +203,9 @@ async function startXeonBot() {
 	XeonBotInc.ev.on('messages.upsert', async (message) => {
 		await MessagesUpsert(XeonBotInc, message, store);
 	});
-	const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.listen(port, () => {
-  console.log(`Global-MD listening on port ${port}`)
-})
-
+	
 	return XeonBotInc
 }
-
 startXeonBot()
 
 let file = require.resolve(__filename)
