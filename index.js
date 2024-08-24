@@ -165,7 +165,7 @@ async function startXeonBot() {
 			}
 		}
 		if (connection == 'open') {
-			console.log('✅Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
+			console.log('✅ Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
 		} else if (receivedPendingNotifications == 'true') {
 			console.log('Please wait About 1 Minute...')
 		}
@@ -204,6 +204,17 @@ async function startXeonBot() {
 		await MessagesUpsert(XeonBotInc, message, store);
 	});
 
+	const express = require('express')
+const app = express()
+const port = process.env.PORT || 8000;
+
+app.get('/', (req, res) => {
+  res.send('Hello Globe!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+});
 	return XeonBotInc
 }
 
