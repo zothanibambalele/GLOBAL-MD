@@ -33,14 +33,14 @@ global.premium = ["923444844060"] // Premium User
 
 //channel id
 global.xchannel = {
-	jid: '120363222395675670@newsletter'
+	jid: '120363319098372999@newsletter'
 	}
 
 //bot sett
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = 'v4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '91' //set autoblock country code
-global.antiforeignnumber = '91' //set anti foreign number country code
+global.antiforeignnumber = '94' //set anti foreign number country code
 
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
