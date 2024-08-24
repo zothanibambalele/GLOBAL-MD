@@ -165,7 +165,7 @@ async function startXeonBot() {
 			}
 		}
 		if (connection == 'open') {
-			console.log('Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
+			console.log('✅Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
 		} else if (receivedPendingNotifications == 'true') {
 			console.log('Please wait About 1 Minute...')
 		}
