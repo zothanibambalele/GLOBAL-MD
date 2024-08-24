@@ -108,5 +108,14 @@
   "directories": {
     "lib": "lib",
     "src": "src"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlobalTechInfo/GLOBAL-MD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlobalTechInfo/GLOBAL-MD/issues"
+  },
+  "homepage": "https://github.com/GlobalTechInfo/GLOBAL-MD#readme"
 }
