@@ -16,14 +16,15 @@ global.websitex = "https://youtube.com/GlobalTechInfo"
 global.wagc = "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"
 global.themeemoji = '🪀'
 global.wm = "Global Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD15' //script link
+global.botscript = 'https://github.com/GlobalTechInfo/GLOBAL-MD' //script link
 global.packname = "Sticker By"
 global.author = "𝐆𝐋𝐎𝐁𝐀𝐋-𝐌𝐃\n\n+923444844060"
 global.creator = "923444844060@s.whatsapp.net"
 global.xprefix = '.'
 global.premium = ["923444844060"] // Premium User
 
-//channel id
+//CHANNEL-ID//=======//⚠️Don't Try To Change It If You Don't Know About It======\\
+////======⚠️OTHERWISE BOT WILL NOT WORK⚠️======\\\
 global.xchannel = {
 	jid: '120363319098372999@newsletter'
 	}
@@ -32,7 +33,7 @@ global.xchannel = {
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = 'v4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '91' //set autoblock country code
-global.antiforeignnumber = '94' //set anti foreign number country code
+global.antiforeignnumber = '212' //set anti foreign number country code
 
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
