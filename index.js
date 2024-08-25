@@ -203,18 +203,6 @@ async function startXeonBot() {
 	XeonBotInc.ev.on('messages.upsert', async (message) => {
 		await MessagesUpsert(XeonBotInc, message, store);
 	});
-
-	const express = require('express')
-const app = express()
-const port = process.env.PORT || 8000;
-
-app.get('/', (req, res) => {
-  res.send('Hello Globe!')
-})
-
-app.listen(port, () => {
-  console.log(`app is listening on port ${port}`)
-});
 	return XeonBotInc
 }
 
