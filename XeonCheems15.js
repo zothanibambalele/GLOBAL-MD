@@ -1,10 +1,12 @@
-//base by GlobalTechInfo
+//base by DGXeon
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @GlobalTechInfo
-//Telegram: t.me/GlobalTechInc
-//GitHub: @GlobalTechInfo
-//WhatsApp: +923444844060
-//subscribe to my youtube channel: https://youtube.com/@GlobalTechInfo
+//YouTube: @DGXeon
+//Instagram: unicorn_xeon13
+//Telegram: t.me/xeonbotinc
+//GitHub: @DGXeon
+//WhatsApp: +916909137213
+//want more free bot scripts? 
+//subscribe to my youtube channel: https://youtube.com/@DGXeon
 
 process.on('unhandledRejection', console.error)
 process.on('uncaughtException', console.error)
@@ -317,7 +319,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 			}
 		}, {
 			scheduled: true,
-			timezone: 'Asia/Karachi'
+			timezone: 'Asia/Kolkata'
 		})
 		
 		if (!XeonBotInc.public) {
@@ -971,10 +973,10 @@ quoted: m,
         }
         
 //time
-const xday = moment.tz('Asia/Karachi').locale('en-PK').format('dddd');
-const xdate = moment.tz('Asia/Karachi').locale('en-PK').format('DD/MM/YYYY');
-const xtime = moment().tz('Asia/Karachi').locale('en-PK').format('HH:mm:ss');
-const time2 = moment().tz('Asia/Karachi').format('HH:mm:ss')  
+const xday = moment.tz('Asia/Kolkata').locale('en-IN').format('dddd');
+const xdate = moment.tz('Asia/Kolkata').locale('en-IN').format('DD/MM/YYYY');
+const xtime = moment().tz('Asia/Kolkata').locale('en-IN').format('HH:mm:ss');
+const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -1232,7 +1234,7 @@ async function xeonkillpic(target, kuwoted) {
       header: {
         title: "🦄드림 가이 Xeon",
         hasMediaAttachment: true,
-        ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg" } }, { upload: XeonBotInc.waUploadToServer }))
+        ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co/Wppj16p/cheemspic.jpg" } }, { upload: XeonBotInc.waUploadToServer }))
       },
       body: {
         text: ""
@@ -1571,7 +1573,7 @@ title: botname
                     case 'lovelycheck':
                       case 'uglycheck':
 case 'handsomecheck':{
-				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @GlobalTechInfo`)
+				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Xeon`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1616,7 +1618,7 @@ return await XeonBotInc.relayMessage(m.chat, msgs.message, {})
 }
 					break
 case 'beautifulcheck':{
-				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @GlobalTechInfo`)
+				if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Xeon`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1661,7 +1663,7 @@ return await XeonBotInc.relayMessage(m.chat, msgs.message, {})
 }
 					break
 					case 'charactercheck':{
-					if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @GlobalTechInfo`)
+					if (!text) return replygcxeon(`Tag Someone, Example : ${prefix + command} @Xeon`)
 					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1816,9 +1818,9 @@ break
         `Susbcribe Developer's YouTube Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://youtube.com/@GlobalTechInfo', // Command (URL in this case)
+        'https://youtube.com/@dgxeon', // Command (URL in this case)
         'cta_url', // Button type
-        'https://youtube.com/@GlobalTechInfo' // URL (used in image generation)
+        'https://youtube.com/@dgxeon' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1024px-Telegram_2019_Logo.svg.png', // Image URL
@@ -1826,9 +1828,9 @@ break
         `Susbcribe Developer's Telegram Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'http://t.me/GlobalTechInc', // Command (URL in this case)
+        'http://t.me/xeonbotinc', // Command (URL in this case)
         'cta_url', // Button type
-        'http://t.me/GlobalTechInc' // URL (used in image generation)
+        'http://t.me/xeonbotinc' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/360px-GitHub_Invertocat_Logo.svg.png', // Image URL
@@ -1836,9 +1838,9 @@ break
         `Follow Developer On GitHub`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://github.com/GlobalTechInfo', // Command (URL in this case)
+        'https://github.com/DGXeon', // Command (URL in this case)
         'cta_url', // Button type
-        'https://github.com/GlobalTechInfo' // URL (used in image generation)
+        'https://github.com/DGXeon' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png', // Image URL
@@ -8913,7 +8915,7 @@ await XeonBotInc.relayMessage(m.chat, msgs.message, {})
     break
     case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 let me = m.sender
-let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg`
+let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/y6XmZ2b/donate.png`
 sendXeonBotIncMessage(m.chat, { 
 text: teks,
 mentions:[sender],
@@ -8986,7 +8988,7 @@ case 'runtime': {
 			}
 			break
 case 'ghstalk': case 'githubstalk':{
-if (!q) return replygcxeon(`Example ${prefix+command} GlobalTechInfo`)
+if (!q) return replygcxeon(`Example ${prefix+command} DGXeon`)
 await XeonStickWait()
 let githubstalk = require('./lib/scraper')
 aj = await githubstalk.githubstalk(`${q}`)
@@ -10433,7 +10435,7 @@ break
             }
             break
 			case 'fliptext': {
-                if (args.length < 1) return replygcxeon(`Example:\n${prefix}fliptext GlobalTechInfo`)
+                if (args.length < 1) return replygcxeon(`Example:\n${prefix}fliptext dgxeon`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
                 replygcxeon(`\`\`\`「 FLIP TEXT 」\`\`\`\n*•> Normal :*\n${quere}\n*•> Flip :*\n${flipe}`)
@@ -10584,7 +10586,7 @@ case 'gdrive': {
 }
 break
            case 'git': case 'gitclone':
-if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/GlobalTechInfo/XeonMedia`)
+if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/DGXeon/XeonMedia`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcxeon(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -10938,7 +10940,7 @@ var inputnumber = text.split(" ")[0]
                 if (anu1 == '401' || anu1.status.length == 0) {
                     nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
                 } else {
-                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Karachi').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
                 }
             } catch {
                 nowhatsapp += `${number0}${i}${number1}\n`
@@ -12148,7 +12150,7 @@ let msgs = generateWAMessageFromContent(m.chat, {
           nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
             buttons: [{
             "name": "quick_reply",
-              "buttonParamsJson": `{\"display_text\":\"GX-MENU 🚀\",\"id\":\"${prefix}menu"}`
+              "buttonParamsJson": `{\"display_text\":\"Menu 🚀\",\"id\":\"${prefix}menu"}`
             }],
           }), 
           contextInfo: {
@@ -13853,7 +13855,7 @@ const teksop = `     「 Create Group 」
 
 ▸ Name : ${cret.subject}
 ▸ Owner : @${cret.owner.split("@")[0]}
-▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}
+▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}
 
 https://chat.whatsapp.com/${response}`
 XeonBotInc.sendMessage(m.chat, { text:teksop, mentions: await XeonBotInc.parseMention(teksop)}, {quoted:m})
@@ -14204,7 +14206,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -15214,7 +15216,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
                 	let button = [{
 						name: 'single_select',
 						buttonParamsJson: {
-							title: 'SELECT 🛍️',
+							title: 'SELECT 🌹',
 							sections: [{
 								title: 'BOT MODE',
 								rows: [
@@ -15224,7 +15226,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 							}]
 						}
 					}]
-                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose 🛍️', null, button, m);
+                	await XeonBotInc.sendButtonMsg(m.chat, 'BOT MODE', xeonytimewisher, 'Please choose 🌹', null, button, m);
                 	}
                 }
                 break
@@ -15330,7 +15332,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				let teks = `⬣ *LIST GROUP CHAT*\n\nTotal Group : ${anu.length} Group\n\n`
 				for (let i of anu) {
 					let metadata = await XeonBotInc.groupMetadata(i)
-					teks += `${setv} *Name :* ${metadata.subject}\n${setv} *Admin :* ${metadata.owner ? `@${metadata.owner.split('@')[0]}` : '-' }\n${setv} *ID :* ${metadata.id}\n${setv} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Karachi').format('DD/MM/YYYY HH:mm:ss')}\n${setv} *Member :* ${metadata.participants.length}\n\n=====================\n\n`
+					teks += `${setv} *Name :* ${metadata.subject}\n${setv} *Admin :* ${metadata.owner ? `@${metadata.owner.split('@')[0]}` : '-' }\n${setv} *ID :* ${metadata.id}\n${setv} *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n${setv} *Member :* ${metadata.participants.length}\n\n=====================\n\n`
 				}
 				XeonBotInc.sendTextMentions(m.chat, teks, m)
 			}
@@ -15987,7 +15989,7 @@ if (!text) return replygcxeon('Where is the text?')
 			}
 			break
 			case 'ssweb': {
-				if (!text) return replygcxeon(`Example: ${prefix + command} https://github.com/GlobalTechInfo`)
+				if (!text) return replygcxeon(`Example: ${prefix + command} https://github.com/DGXeon`)
 				if (!text.startsWith('http')) {
 					let buf = 'https://image.thum.io/get/width/1900/crop/1000/fullpage/https://' + q;
 					await XeonBotInc.sendMessage(m.chat, { image: { url: buf }, caption: 'Done' }, { quoted: m })
@@ -16796,7 +16798,7 @@ break
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *USER INFO* 」❍
 ├ *Name* : ${m.pushName ? m.pushName : 'No name'}
@@ -16804,7 +16806,7 @@ break
 ├ *Id* : @${m.sender.split('@')[0]}
 ├ *User* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
 ├ *Limit* : ${isVip ? 'VIP' : global.db.users[m.sender].limit }
-├ *Money* : ${global.db.users[m.sender] ? global.db.users[m.sender].uang.toLocaleString('en-PK') : '0'}
+├ *Money* : ${global.db.users[m.sender] ? global.db.users[m.sender].uang.toLocaleString('en-IN') : '0'}
 ╰─┬────❍
 ╭─┴─❍「 *BOT INFO* 」❍
 ├ *Speed* : ${latensie.toFixed(4)} miliseconds
@@ -16944,7 +16946,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -16969,7 +16971,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -17002,24 +17004,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -17056,24 +17066,32 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
                                   ],
                 }),
                 contextInfo: {
@@ -17121,89 +17139,89 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
+`{"title":"MENU 🌺",
 "sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
 "id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
+{"header":"SEARCH MENU",
 "title":"click to display",
 "description":"Displays The List Of Search Features",
 "id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
+{"header":"DOWNLOAD MENU",
 "title":"click to display",
 "description":"Displays The List Of Download Features",
 "id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
+{"header":"GAME MENU",
 "title":"click to display",
 "description":"Displays The List Of Game Features",
 "id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
+{"header":"FUN MENU",
 "title":"click to display",
 "description":"Displays The List Of Fun Features",
 "id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
+{"header":"AI MENU",
 "title":"click to display",
 "description":"Displays The List Of AI Features",
 "id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
+{"header":"GROUP MENU",
 "title":"click to display",
 "description":"Displays The List Of Group Features",
 "id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
+{"header":"OWNER MENU",
 "title":"click to display",
 "description":"Displays The List Of Owner Features",
 "id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
+{"header":"CONVERT MENU",
 "title":"click to display",
 "description":"Displays The List Of Convert Features",
 "id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
+{"header":"LIST MENU",
 "title":"click to display",
 "description":"Displays The List Of List Features",
 "id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
+{"header":"RELIGION MENU",
 "title":"click to display",
 "description":"Displays The List Of Religion Features",
 "id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
+{"header":"NSFW MENU",
 "title":"click to display",
 "description":"Displays The List Of NSFW Features",
 "id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
+{"header":"ANIME MENU",
 "title":"click to display",
 "description":"Displays The List Of Anime Features",
 "id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
+{"header":"RANDOM PHOTO MENU",
 "title":"click to display",
 "description":"Displays The List Of Random Photo Features",
 "id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
+{"header":"RANDOM VIDEO MENU",
 "title":"click to display",
 "description":"Displays The List Of Random Video Features",
 "id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
+{"header":"STICKER MENU",
 "title":"click to display",
 "description":"Displays The List Of Sticker Features",
 "id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
+{"header":"DATABASE MENU",
 "title":"click to display",
 "description":"Displays The List Of Database Features",
 "id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
+{"header":"STORE MENU",
 "title":"click to display",
 "description":"Displays The List Of Store Features",
 "id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
+{"header":"STALKER MENU",
 "title":"click to display",
 "description":"Displays The List Of Stalk Features",
 "id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
+{"header":"BUG MENU",
 "title":"click to display",
 "description":"Displays The List Of Bug Features",
 "id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
+{"header":"OTHER MENU",
 "title":"click to display",
 "description":"Displays The List Of Other Features",
 "id":"${prefix}othermenu"}]
@@ -17212,19 +17230,27 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -17254,7 +17280,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -17990,7 +18016,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18016,7 +18042,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -18049,24 +18075,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -18103,23 +18137,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -18176,110 +18210,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -18309,7 +18272,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -18493,7 +18456,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18519,7 +18482,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -18552,24 +18515,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -18606,23 +18577,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -18679,110 +18650,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -18812,7 +18712,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -18975,7 +18875,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19001,7 +18901,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19034,24 +18934,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -19088,23 +18996,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -19161,110 +19069,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -19294,7 +19131,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -19412,7 +19249,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19438,7 +19275,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19471,24 +19308,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -19525,23 +19370,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -19598,110 +19443,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -19731,7 +19505,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -19863,7 +19637,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19889,7 +19663,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19922,24 +19696,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -19976,23 +19758,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -20049,110 +19831,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -20182,7 +19893,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -20331,7 +20042,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20357,7 +20068,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20390,24 +20101,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -20444,23 +20163,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -20517,110 +20236,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -20650,7 +20298,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -20768,7 +20416,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20794,7 +20442,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20827,24 +20475,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -20881,23 +20537,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -20954,110 +20610,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -21087,7 +20672,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -21250,7 +20835,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21276,7 +20861,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21309,24 +20894,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -21363,23 +20956,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -21436,110 +21029,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -21569,7 +21091,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -21683,7 +21205,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21709,7 +21231,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21742,24 +21264,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -21796,23 +21326,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -21869,110 +21399,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -22002,7 +21461,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -22112,7 +21571,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22138,7 +21597,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22171,24 +21630,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -22225,23 +21692,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -22298,110 +21765,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -22431,7 +21827,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -22556,7 +21952,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22582,7 +21978,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22615,24 +22011,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -22669,23 +22073,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -22742,110 +22146,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -22875,7 +22208,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -22995,7 +22328,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23021,7 +22354,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23054,24 +22387,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -23108,23 +22449,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -23181,110 +22522,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -23314,7 +22584,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -23484,7 +22754,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23510,7 +22780,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23543,24 +22813,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -23597,23 +22875,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -23670,110 +22948,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -23803,7 +23010,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -23916,7 +23123,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23942,7 +23149,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23975,24 +23182,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -24029,23 +23244,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -24102,110 +23317,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -24235,7 +23379,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -24476,7 +23620,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24502,7 +23646,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24535,24 +23679,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -24589,23 +23741,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -24662,110 +23814,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -24795,7 +23876,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -24915,7 +23996,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24941,7 +24022,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24974,24 +24055,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -25028,23 +24117,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -25101,110 +24190,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -25234,7 +24252,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -25348,7 +24366,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25374,7 +24392,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25407,24 +24425,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -25461,24 +24487,32 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 🔖","id":"${prefix}script"}`
+              }
                                   ],
                 }),
                 contextInfo: {
@@ -25526,110 +24560,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -25659,7 +24622,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -25770,7 +24733,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25796,7 +24759,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25829,24 +24792,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -25883,23 +24854,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -25956,110 +24927,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -26089,7 +24989,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -26198,7 +25098,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26224,7 +25124,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26257,24 +25157,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -26311,23 +25219,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -26384,110 +25292,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -26517,7 +25354,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -26632,7 +25469,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26658,7 +25495,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26691,24 +25528,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -26745,23 +25590,23 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
    },
               {
                 "name": "quick_reply",
@@ -26818,110 +25663,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -26951,7 +25725,7 @@ let xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
 ├ *Hi 👋*
 ├ *${m.pushName}* 
-├ *${xeonytimewisher} 💝* 
+├ *${xeonytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
 ╭─┴❍「 *GUIDE* 」❍
 ├ *🅞 = For Owner* 
@@ -27073,7 +25847,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -27099,7 +25873,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/JxRTpxr/e11e32f92c5e1d895ff11ef155b30733.jpg",
+thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -27132,24 +25906,32 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
+              }
            ],
           })
         })
@@ -27186,24 +25968,32 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
-  "buttonParamsJson": `{"display_text":"GX-MENU 🗂️","id":"${prefix}allmenu"}`
-   }
+  "buttonParamsJson": `{"display_text":"Allmenu 🗂️","id":"${prefix}allmenu"}`
+   },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 🔖","id":"${prefix}script"}`
+              }
                                   ],
                 }),
                 contextInfo: {
@@ -27251,110 +26041,39 @@ let msg = generateWAMessageFromContent(m.chat, {
               {
                 "name": "single_select",
                 "buttonParamsJson": 
-`{"title":"GX-MENU 🗂️",
-"sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU 🍇",
+`{"title":"MENU 🌺",
+"sections":[{"title":"${ownername}",
+"highlight_label":"${botname}",
+"rows":[{"header":"ALL MENU",
 "title":"click to display",
 "description":"Displays The List Of All The Features",
-"id":"${prefix}allmenu"},
-{"header":"SEARCH MENU 🧑‍💻",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
-"id":"${prefix}searchmenu"},
-{"header":"DOWNLOAD MENU 📩",
-"title":"click to display",
-"description":"Displays The List Of Download Features",
-"id":"${prefix}downloadmenu"},
-{"header":"GAME MENU 🎮",
-"title":"click to display",
-"description":"Displays The List Of Game Features",
-"id":"${prefix}gamemenu"},
-{"header":"FUN MENU 🎭",
-"title":"click to display",
-"description":"Displays The List Of Fun Features",
-"id":"${prefix}funmenu"},
-{"header":"AI MENU 🤖",
-"title":"click to display",
-"description":"Displays The List Of AI Features",
-"id":"${prefix}aimenu"},
-{"header":"GROUP MENU 🍒",
-"title":"click to display",
-"description":"Displays The List Of Group Features",
-"id":"${prefix}groupmenu"},
-{"header":"OWNER MENU 🌟",
-"title":"click to display",
-"description":"Displays The List Of Owner Features",
-"id":"${prefix}ownermenu"},
-{"header":"CONVERT MENU ⌛",
-"title":"click to display",
-"description":"Displays The List Of Convert Features",
-"id":"${prefix}convertmenu"},
-{"header":"LIST MENU 📋",
-"title":"click to display",
-"description":"Displays The List Of List Features",
-"id":"${prefix}listmenu"},
-{"header":"RELIGION MENU 📚",
-"title":"click to display",
-"description":"Displays The List Of Religion Features",
-"id":"${prefix}religionmenu"},
-{"header":"NSFW MENU 🥵",
-"title":"click to display",
-"description":"Displays The List Of NSFW Features",
-"id":"${prefix}nsfwmenu"},
-{"header":"ANIME MENU 👄",
-"title":"click to display",
-"description":"Displays The List Of Anime Features",
-"id":"${prefix}animemenu"},
-{"header":"RANDOM PHOTO MENU 🫅",
-"title":"click to display",
-"description":"Displays The List Of Random Photo Features",
-"id":"${prefix}randomphotomenu"},
-{"header":"RANDOM VIDEO MENU 💃",
-"title":"click to display",
-"description":"Displays The List Of Random Video Features",
-"id":"${prefix}randomvideomenu"},
-{"header":"STICKER MENU 💟",
-"title":"click to display",
-"description":"Displays The List Of Sticker Features",
-"id":"${prefix}stickermenu"},
-{"header":"DATABASE MENU 💾",
-"title":"click to display",
-"description":"Displays The List Of Database Features",
-"id":"${prefix}databasemenu"},
-{"header":"STORE MENU 🛍️",
-"title":"click to display",
-"description":"Displays The List Of Store Features",
-"id":"${prefix}storemenu"},
-{"header":"STALKER MENU 🕵️",
-"title":"click to display",
-"description":"Displays The List Of Stalk Features",
-"id":"${prefix}stalkermenu"},
-{"header":"BUG MENU ☠️",
-"title":"click to display",
-"description":"Displays The List Of Bug Features",
-"id":"${prefix}bugmenu"},
-{"header":"OTHER MENU 🐬",
-"title":"click to display",
-"description":"Displays The List Of Other Features",
-"id":"${prefix}othermenu"}]
+"id":"${prefix}allmenu"}]
 }]
 }`
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE 🛍️\",\"url\":\"https://youtube.com/@GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"TELEGRAM 💌\",\"url\":\"https://t.me/GlobalTechInc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xeonbotinc\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB ID 🎩\",\"url\":\"https://github.com/GlobalTechInfo\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🌟\",\"url\":\"https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Owner 👤","id":"${prefix}owner"}`
+              },
+              {
+                "name": "quick_reply",
+                "buttonParamsJson": `{"display_text":"Script 📃","id":"${prefix}script"}`
               }
            ],
           }),
@@ -27664,7 +26383,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
 	} catch (err) {
 		console.log(util.format(err))
         let e = String(err)
-XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "🛍️ Hello developer, there seems to be an error, please fix it " + util.format(e), 
+XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: "🌹 Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
