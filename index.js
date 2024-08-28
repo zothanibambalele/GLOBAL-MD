@@ -26,9 +26,7 @@ const { default: WAConnection, useMultiFileAuthState, Browsers, DisconnectReason
 
 
 
-const pairingCode = process.argv.includes('--pairing-code');
-
-const useMobile = process.argv.includes("--mobile")
+const pairingCode = global.pairing_code || process.argv.includes('--pairing-code');
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 
@@ -54,17 +52,15 @@ const database = new DataBase();
 
 		global.db = {
 
-			sticker: {},
+			set: {},
 
 			users: {},
+
+			game: {},
 
 			groups: {},
 
 			database: {},
-
-			 settings: {},
-
-			others: {},
 
 			...(loadData || {}),
 
@@ -92,9 +88,19 @@ const database = new DataBase();
 
 const { GroupUpdate, GroupParticipantsUpdate, MessagesUpsert, Solving } = require('./src/message');
 
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif');
-
 const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/function');
+
+
+
+/*
+
+	* Create By Naze
+
+	* Follow https://github.com/nazedev
+
+	* Whatsapp : wa.me/6282113821188
+
+*/
 
 
 
@@ -102,9 +108,9 @@ async function startXeonBot() {
 
 	const { state, saveCreds } = await useMultiFileAuthState('session');
 
-	const { version } = await fetchLatestWaWebVersion()
+	const { version, isLatest } = await fetchLatestWaWebVersion();
 
-	const msgRetryCounterCache = new NodeCache()
+	const msgRetryCounterCache = new NodeCache();
 
 	const level = pino({ level: 'silent' })
 
@@ -116,13 +122,13 @@ async function startXeonBot() {
 
 			const msg = await store.loadMessage(key.remoteJid, key.id);
 
-			return msg?.message
+			return msg?.message || ''
 
 		}
 
 		return {
 
-			conversation: 'Cheems Bot Here!'
+			conversation: 'Halo Saya Naze Bot'
 
 		}
 
@@ -132,55 +138,15 @@ async function startXeonBot() {
 
 	const XeonBotInc = WAConnection({
 
-		version,
+		isLatest,
+
+		//version: [2, 3000, 1015901307],
 
 		logger: level,
 
 		printQRInTerminal: !pairingCode,
 
 		browser: Browsers.ubuntu('Chrome'),
-
-		patchMessageBeforeSending: (message) => {
-
-            const requiresPatch = !!(
-
-                message.buttonsMessage ||
-
-                message.templateMessage ||
-
-                message.listMessage
-
-            );
-
-            if (requiresPatch) {
-
-                message = {
-
-                    viewOnceMessage: {
-
-                        message: {
-
-                            messageContextInfo: {
-
-                                deviceListMetadataVersion: 2,
-
-                                deviceListMetadata: {},
-
-                            },
-
-                            ...message,
-
-                        },
-
-                    },
-
-                };
-
-            }
-
-            return message;
-
-        },
 
 		auth: {
 
@@ -208,11 +174,11 @@ async function startXeonBot() {
 
 		retryRequestDelayMs: 10,
 
+		defaultQueryTimeoutMs: 0,
+
 		connectTimeoutMs: 60000,
 
 		keepAliveIntervalMs: 10000,
-
-		defaultQueryTimeoutMs: undefined,
 
 		generateHighQualityLinkPreview: true,
 
@@ -226,7 +192,7 @@ async function startXeonBot() {
 
 		async function getPhoneNumber() {
 
-			phoneNumber = await question(chalk.bgBlack(chalk.greenBright('Please type your WhatsApp number : ')));
+			phoneNumber = await question('Please type your WhatsApp number : ');
 
 			phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
@@ -248,9 +214,11 @@ async function startXeonBot() {
 
 			await getPhoneNumber()
 
+			await exec('rm -rf ./session/*')
+
 			let code = await XeonBotInc.requestPairingCode(phoneNumber);
 
-			console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)));
+			console.log(`Your Pairing Code : ${code}`);
 
 		}, 3000)
 
@@ -306,21 +274,29 @@ async function startXeonBot() {
 
 				console.log('Delete Session and Scan again...');
 
-				process.exit(1)
+				startXeonBot()
 
 			} else if (reason === DisconnectReason.connectionReplaced) {
 
 				console.log('Close current Session first...');
 
-				XeonBotInc.logout();
+				startXeonBot()
 
 			} else if (reason === DisconnectReason.loggedOut) {
 
 				console.log('Scan again and Run...');
 
+				exec('rm -rf ./session/*')
+
+				process.exit(1)
+
 			} else if (reason === DisconnectReason.Multidevicemismatch) {
 
 				console.log('Scan again...');
+
+				exec('rm -rf ./session/*')
+
+				process.exit(0)
 
 			} else {
 
@@ -332,11 +308,15 @@ async function startXeonBot() {
 
 		if (connection == 'open') {
 
-			console.log('✅Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
+			console.log('Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
 
-		} else if (receivedPendingNotifications == 'true') {
+		}
+
+		if (receivedPendingNotifications == 'true') {
 
 			console.log('Please wait About 1 Minute...')
+
+			XeonBotInc.ev.flush()
 
 		}
 
@@ -362,15 +342,13 @@ async function startXeonBot() {
 
 		let botNumber = await XeonBotInc.decodeJid(XeonBotInc.user.id);
 
-		let anticall = global.db.settings[botNumber].anticall
-
-		if (anticall) {
+		if (db.set[botNumber].anticall) {
 
 			for (let id of call) {
 
 				if (id.status === 'offer') {
 
-					let msg = await XeonBotInc.sendMessage(id.from, { text: `Currently, We Cannot Receive Calls ${id.isVideo ? 'Video' : 'Suara'}.\nIf @${id.from.split('@')[0]} Need Help, Please Contact Owner :)`, mentions: [id.from]});
+					let msg = await XeonBotInc.sendMessage(id.from, { text: `Saat Ini, Kami Tidak Dapat Menerima Panggilan ${id.isVideo ? 'Video' : 'Suara'}.\nJika @${id.from.split('@')[0]} Memerlukan Bantuan, Silakan Hubungi Owner :)`, mentions: [id.from]});
 
 					await XeonBotInc.sendContact(id.from, global.owner, msg);
 
@@ -396,7 +374,7 @@ async function startXeonBot() {
 
 	XeonBotInc.ev.on('group-participants.update', async (update) => {
 
-		await GroupParticipantsUpdate(XeonBotInc, update);
+		await GroupParticipantsUpdate(XeonBotInc, update, store);
 
 	});
 
