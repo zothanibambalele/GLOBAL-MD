@@ -1,6 +1,0 @@
-( COMMAND TO CONNECT BOT )
-- connect via qr code: npm start
-- connect via pair code: node index --pairing-code
-
-( COMMAND TO START BOT AFTER CONNECTING)
-- npm start
