@@ -13,11 +13,11 @@
   "author": "DGXeon",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys" : "latest",
+    "@whiskeysockets/baileys" : "^6.7.5",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^4.2.4",
     "@develoka/angka-terbilang-js": "^1.4.2",
-    "@distube/ytdl-core": "latest",
+    "@distube/ytdl-core": "^4.13.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
     "@ibaraki-douji/pixivts": "^2.4.1",
