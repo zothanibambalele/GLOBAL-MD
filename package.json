@@ -19,7 +19,7 @@
     "@develoka/angka-terbilang-js": "^1.4.2",
     "@distube/ytdl-core": "latest",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@hapi/boom": "^10.0.0",
+    "@hapi/boom": "^10.0.1",
     "@ibaraki-douji/pixivts": "^2.4.1",
     "@vitalets/google-translate-api": "^9.2.0",
     "api-dylux": "^1.4.4",
