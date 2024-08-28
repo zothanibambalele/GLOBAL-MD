@@ -164,10 +164,15 @@ async function startXeonBot() {
 				XeonBotInc.end(`Unknown DisconnectReason : ${reason}|${connection}`)
 			}
 		}
-		if (connection == 'open') {
-			console.log('Connected to : ' + JSON.stringify(XeonBotInc.user, null, 2));
-		} else if (receivedPendingNotifications == 'true') {
-			console.log('Please wait About 1 Minute...')
+		if (connection == "open" || update.receivedPendingNotifications == "true") {
+			console.log(color(` `,'magenta'))
+            console.log(color(`✅Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
+            console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
+            console.log(color(`< ================================================== >`, 'cyan'))
+	        console.log(color(`\n${themeemoji} YT CHANNEL: Xeon`,'magenta'))
+            console.log(color(`${themeemoji} GITHUB: DGXeon `,'magenta'))
+            console.log(color(`${themeemoji} INSTAGRAM: @unicorn_xeon `,'magenta'))
+            console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
 		}
 	});
 	
