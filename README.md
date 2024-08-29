@@ -1,4 +1,4 @@
-# Fixed Anything Just PREFIX Is Not Working, Wait A Little More 🥰
+# FIXED & UPDATED 🥰
 
 
 <p align="center">
