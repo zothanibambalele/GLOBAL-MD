@@ -42,7 +42,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## `Generate Pair Code For Session`
 
-<a href='https://replit.com/@tlptrends92/Xeon-PairCode#README.md' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://web-vstsf.onrender.com' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 ## 👇USING GIFTED PAIRING BECAUSE MINE NOT WORKING
 
