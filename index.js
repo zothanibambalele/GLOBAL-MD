@@ -392,7 +392,17 @@ async function startXeonBot() {
 
 }
 
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 8000;
 
+app.get('/', (req, res) => {
+  res.send('Hello Globe!')
+})
+
+app.listen(port, () => {
+  console.log(`YoutTube: @GlobalTechInfo\n\nGitHub: @GlobalTechInfo\n\nServer running on http://localhost:` + PORT)
+})
 
 startXeonBot()
 
