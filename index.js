@@ -389,6 +389,7 @@ async function startXeonBot() {
 
 
 	return XeonBotInc
+}
 
 const express = require('express')
 const app = express()
@@ -401,6 +402,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`GLOBAL-MD is listening on port ${port}`)
 })
+
 startXeonBot()
 
 
