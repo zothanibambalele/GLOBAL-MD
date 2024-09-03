@@ -30,7 +30,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## `Generate Pair Code For Session`
 
-### Watch Turtorial
+### Watch Tutorial
 <a href="https://youtu.be/lsl636dr3yk"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/lsl636dr3yk" /><br>
 
 ## PAIR SERVER 1
