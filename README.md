@@ -41,7 +41,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 <a href='https://replit.com/@tlptrends92/GLOBAL-SESSIONS#main.sh' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 
-#### NOW UPLOAD YOUR CREDS.JSON FILE INSIDE SESSION FOLDER OF YOUR FORK
+`GET CREDS FILE AND UPLOAD IT INSIDE SESSION FOLDER OF FORK`
 
 # 🛟 `Deployments`
 
@@ -97,7 +97,7 @@ apt install -y webp git nodejs ffmpeg wget imagemagick
 git clone https://github.com/<your gitHub Username>/GLOBAL-MD
 cd GLOBAL-MD
 npm install
-npm start
+node index --pairing-code
 ```
 ### Features 💌
 ### Scroll Right To Left
