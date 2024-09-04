@@ -30,7 +30,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 ## `Generate Pair Code For Session`
 
-### Watch Tutorial
+### WATCH TUTORIAL FOR REPLIT
 <a href="https://youtu.be/lsl636dr3yk"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/lsl636dr3yk" /><br>
 
 ## PAIR SERVER 1
@@ -43,7 +43,7 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
 
 `GET CREDS FILE AND UPLOAD IT INSIDE SESSION FOLDER OF FORK`
 
-# 🛟 `Deployments`
+# 🛟 `DEPLOYEMENTS`
 
 ## Watch Tutorial For Hosting Panel
 <a href="https://youtu.be/WpfdClSeQyg"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/WpfdClSeQyg" /><br>
@@ -70,6 +70,9 @@ src='https://img.shields.io/badge/HOSTING%20PANEL-blue?style=for-the-badge&logo=
 
 <a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=black&style=for-the-badge&logo=railway'/></a></p>
 
+## WATCH TUTORIAL FOR RENDER
+<a href="https://youtu.be/8Y8cE68vg5A"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/WpfdClSeQyg" /><br>
+
 ### DEPLOY TO RENDER
 
 <a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render'/></a></p>
@@ -81,6 +84,12 @@ src='https://img.shields.io/badge/HOSTING%20PANEL-blue?style=for-the-badge&logo=
 ### DEPLOY TO KOYEB
 
 <a href='https://app.koyeb.com/auth/signin' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-KOYEB-blue?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+# Thanks To 💚
+
+| [![Qasim Ali](https://github.com/GlobalTechInfo.png?size=100)](https://github.com/GlobalTechInfo) | [![Suhail Ser](https://github.com/SuhailTechInfo.png?size=100)](https://github.com/SuhailTechInfo) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
+| --- | --- | ---|
+| [Qasim Ali](https://github.com/GlobalTechInfo) | [Suhail Ser](https://github.com/SuhailTechInfo) | [WhiskeySockets](https://github.com/WhiskeySockets) |
 
 [![JOIN WHATSAPP CHANNEL](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)](https://chat.whatsapp.com/CodjsOI43Ek2PXdQOC1iZK)
 
