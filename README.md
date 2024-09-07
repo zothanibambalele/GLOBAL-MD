@@ -98,11 +98,13 @@ pkg install proot-distro
 proot-distro install ubuntu
 proot-distro login ubuntu
 apt update && apt upgrade -y
-apt install -y webp git nodejs ffmpeg wget imagemagick
+apt install -y webp git ffmpeg curl imagemagick
+apt -y remove nodejs
+curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
 git clone https://github.com/<your gitHub Username>/GLOBAL-MD
 cd GLOBAL-MD
 npm install
-node index --pairing-code
+npm start
 ```
 ### Features 💌
 ### Scroll Right To Left
