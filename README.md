@@ -87,7 +87,7 @@ src='https://img.shields.io/badge/HOSTING%20PANEL-blue?style=for-the-badge&logo=
 | --- | --- | ---|
 | [Qasim Ali](https://github.com/GlobalTechInfo) | [Suhail Ser](https://github.com/SuhailTechInfo) | [WhiskeySockets](https://github.com/WhiskeySockets) |
 
-[![JOIN WHATSAPP CHANNEL](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)](https://chat.whatsapp.com/CodjsOI43Ek2PXdQOC1iZK)
+[![JOIN WHATSAPP CHANNEL](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)](https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07)
 
 ## WATCH TUTORIAL FOR TERMUX/UBUNTU
 <a href="https://youtu.be/-ZDLyq3FdvA"><img src="https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/-ZDLyq3FdvA" /><br>
