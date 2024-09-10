@@ -27,21 +27,22 @@ GLOBAL-MD is a Cool Multi-Device WhatsApp bot developed by [GlobalTechInfo](http
   
 ### Fork The Repo
 
-<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/fork"><img title="GLOBAL-MD" src="https://img.shields.io/badge/FORK-GLOBAL MD-h?color=red&style=for-the-badge&logo=stackshare"></a>
-
 --------
+<a href="https://github.com/GlobalTechInfo/GLOBAL-MD/fork"><img title="GLOBAL-MD" src="https://img.shields.io/badge/FORK-GLOBAL MD-h?color=red&style=for-the-badge&logo=stackshare"></a>
+--------|
+
 ### `GENERATE SESSION`
 
 
 ### PAIRING SERVER 1
+--------
 <a href='https://globalpair-code.onrender.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-1-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+--------|
 
---------
 ### PAIRING SERVER 2
-
-<a href='https://replit.com/@tlptrends92/GLOBAL-SESSIONS#main.sh' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
-
 --------
+<a href='https://replit.com/@tlptrends92/GLOBAL-SESSIONS#main.sh' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/PAIRING CODE-2-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+--------|
 
 
 `GET CREDS FILE AND UPLOAD IT INSIDE SESSION FOLDER OF FORK`
